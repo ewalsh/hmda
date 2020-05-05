@@ -1,0 +1,4 @@
+[debug] [hmda-test] Classpath dependencies List()
+[debug] [hmda-test] Dependencies from configurations List(hmda)
+[debug] Bloop wrote the configuration of project 'hmda-test' to '/home/edmund/Projects/hmda/.bloop/hmda-test.json'
+[success] Generated .bloop/hmda-test.json

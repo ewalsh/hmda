@@ -1,0 +1,31 @@
+show name
+show organization
+set organization := ai.economicdatasciences
+set organization := "ai.economicdatasciences"
+show scalaVersion
+session save
+exit
+show sbtVersion
+set sbtVersion := 0.13.17
+set sbtVersion := "0.13.17"
+session save
+exit
+show scalaVersion
+set scalaVersion := "2.12.8"
+Build import
+session save
+play generateSecret
+play generateSecret;
+generateSecret;
+generateSecret
+playGenerateSecret
+playGenerateSecret;
+play
+console
+compile
+printClasspath
+printClasspath;
+printClasspath:
+exit
+fullClasspath
+inspect run

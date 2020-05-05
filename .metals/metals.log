@@ -1,0 +1,341 @@
+INFO  time: initialize in 0.55s
+WARN  Skipping build import for unsupported sbt version <unknown>
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/build.properties
+  /home/edmund/Projects/hmda/project/build.properties
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/build.sbt
+INFO  running '/opt/jdk1.8.0_221/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4844523789592481412/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/edmund/.sbt/1.0/plugins
+INFO  [info] Loading project definition from /home/edmund/Projects/hmda/project
+INFO  [success] Generated .bloop/hmda-build.json
+INFO  [success] Total time: 1 s, completed 05-May-2020 10:11:12
+INFO  [info] Loading settings for project hmda from build.sbt ...
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [success] Generated .bloop/hmda.json
+INFO  [success] Generated .bloop/hmda-test.json
+INFO  [success] Total time: 1 s, completed 05-May-2020 10:11:16
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 12s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp8886645890262772046/-14f6rdmdt8u1c.socket'
+The server is listening for incoming connections at local:///tmp/bsp8886645890262772046/-14f6rdmdt8u1c.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp8886645890262772046/-14f6rdmdt8u1c.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 4.49s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.1s
+INFO  time: indexed workspace in 2.5s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/build.sbt
+INFO  running '/opt/jdk1.8.0_221/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals6473597748512447823/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/edmund/.sbt/1.0/plugins
+INFO  [info] Loading project definition from /home/edmund/Projects/hmda/project
+INFO  [success] Generated .bloop/hmda-build.json
+INFO  [success] Total time: 1 s, completed 05-May-2020 10:12:50
+INFO  [info] Loading settings for project hmda from build.sbt ...
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [success] Generated .bloop/hmda-test.json
+INFO  [success] Generated .bloop/hmda.json
+INFO  [success] Total time: 1 s, completed 05-May-2020 10:12:54
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 12s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp1906792758118530379/yesc6d6b5t95.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp1906792758118530379/yesc6d6b5t95.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp1906792758118530379/yesc6d6b5t95.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: indexed workspace in 0.46s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/build.properties
+  /home/edmund/Projects/hmda/project/build.properties
+INFO  running '/opt/jdk1.8.0_221/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7950602367358669683/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/edmund/.sbt/1.0/plugins
+INFO  [info] Updating ProjectRef(uri("file:/home/edmund/.sbt/1.0/plugins/"), "global-plugins")...
+INFO  [info] Done updating.
+INFO  [info] Loading project definition from /home/edmund/Projects/hmda/project
+INFO  [info] Updating ProjectRef(uri("file:/home/edmund/Projects/hmda/project/"), "hmda-build")...
+INFO  [info] Done updating.
+INFO  [success] Generated .bloop/hmda-build.json
+INFO  [success] Total time: 2 s, completed 05-May-2020 10:13:52
+INFO  [info] Updating ProjectRef(uri("file:/home/edmund/Projects/hmda/project/"), "hmda-build")...
+INFO  [info] Done updating.
+INFO  [info] Loading settings for project hmda from build.sbt ...
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Updating ...
+INFO  [info] Done updating.
+INFO  [success] Generated .bloop/hmda-test.json
+INFO  [success] Generated .bloop/hmda.json
+INFO  [success] Total time: 1 s, completed 05-May-2020 10:13:57
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 23s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp7869006206952632164/1ouvgvz7jc2kn.socket'
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp7869006206952632164/1ouvgvz7jc2kn.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp7869006206952632164/1ouvgvz7jc2kn.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.24s
+BSP initialization handshake complete.
+INFO  time: indexed workspace in 0.9s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+WARN  no build target: 
+INFO  running '/opt/jdk1.8.0_221/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2294461661211138362/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/edmund/.sbt/1.0/plugins
+ERROR Waiting for lock on /home/edmund/.ivy2/.sbt.ivy.lock to be available...
+INFO  [info] Loading settings for project hmda-build from plugins.sbt ...
+INFO  [info] Loading project definition from /home/edmund/Projects/hmda/project
+INFO  [info] Updating ProjectRef(uri("file:/home/edmund/Projects/hmda/project/"), "hmda-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/hmda-build.json
+INFO  [success] Total time: 9 s, completed 05-May-2020 10:15:09
+INFO  [info] Loading settings for project hmda from build.sbt ...
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] semanticdb-scalac is enabled
+ERROR Waiting for lock on /home/edmund/.ivy2/.sbt.ivy.lock to be available...
+INFO  [success] Generated .bloop/hmda.json
+INFO  [success] Generated .bloop/hmda-test.json
+INFO  [success] Total time: 30 s, completed 05-May-2020 10:15:43
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 1m3s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp6106961557683991875/1bud9td2jv0c6.socket'
+[0m[31m[E][0m BSP server cancelled, closing socket...
+The server is listening for incoming connections at local:///tmp/bsp6106961557683991875/1bud9td2jv0c6.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp6106961557683991875/1bud9td2jv0c6.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.23s
+BSP initialization handshake complete.
+INFO  time: indexed workspace in 0.37s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: 
+INFO  running '/opt/jdk1.8.0_221/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5063126173060811117/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/edmund/.sbt/1.0/plugins
+INFO  [info] Loading settings for project hmda-build from plugins.sbt ...
+INFO  [info] Loading project definition from /home/edmund/Projects/hmda/project
+INFO  [success] Generated .bloop/hmda-build.json
+INFO  [success] Total time: 3 s, completed 05-May-2020 10:25:52
+INFO  [info] Loading settings for project hmda from build.sbt ...
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Updating ...
+INFO  [warn] 	module not found: org.scalatest#scalatest_2.12;2.2.0
+INFO  [warn] ==== local: tried
+INFO  [warn]   /home/edmund/.ivy2/local/org.scalatest/scalatest_2.12/2.2.0/ivys/ivy.xml
+INFO  [warn] ==== public: tried
+INFO  [warn]   https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/2.2.0/scalatest_2.12-2.2.0.pom
+INFO  [warn] ==== local-preloaded-ivy: tried
+INFO  [warn]   /home/edmund/.sbt/preloaded/org.scalatest/scalatest_2.12/2.2.0/ivys/ivy.xml
+INFO  [warn] ==== local-preloaded: tried
+INFO  [warn]   file:////home/edmund/.sbt/preloaded/org/scalatest/scalatest_2.12/2.2.0/scalatest_2.12-2.2.0.pom
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	::          UNRESOLVED DEPENDENCIES         ::
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	:: org.scalatest#scalatest_2.12;2.2.0: not found
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [warn] 		org.scalatest:scalatest_2.12:2.2.0 (/home/edmund/Projects/hmda/build.sbt#L7-8)
+INFO  [warn] 		  +- ai.economicdatasciences:hmda_2.12:0.1.0-SNAPSHOT
+INFO  [error] sbt.librarymanagement.ResolveException: unresolved dependency: org.scalatest#scalatest_2.12;2.2.0: not found
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:95)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)
+INFO  [error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+INFO  [error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)
+INFO  [error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+INFO  [error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+INFO  [error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:278)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: unresolved dependency: org.scalatest#scalatest_2.12;2.2.0: not found
+INFO  [error] Total time: 1 s, completed 05-May-2020 10:25:57
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 16s
+ERROR sbt command failed: /opt/jdk1.8.0_221/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5063126173060811117/sbt-launch.jar metalsEnable bloopInstall
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp1702296513628489158/1di6ljrj3vguv.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp1702296513628489158/1di6ljrj3vguv.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp1702296513628489158/1di6ljrj3vguv.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.23s
+BSP initialization handshake complete.
+INFO  time: indexed workspace in 0.14s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: 
+INFO  running '/opt/jdk1.8.0_221/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7494130138926892460/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/edmund/.sbt/1.0/plugins
+INFO  [info] Loading settings for project hmda-build from plugins.sbt ...
+INFO  [info] Loading project definition from /home/edmund/Projects/hmda/project
+INFO  [success] Generated .bloop/hmda-build.json
+INFO  [success] Total time: 1 s, completed 05-May-2020 10:28:43
+INFO  [info] Loading settings for project hmda from build.sbt ...
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] Set current project to hmda (in build file:/home/edmund/Projects/hmda/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Updating ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.12/3.3.0-SNAP2/scalatest-featurespec_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.3.0-SNAP2/scalatest_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.12/3.3.0-SNAP2/scalatest-flatspec_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-core_2.12/3.3.0-SNAP2/scalatest-core_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.12/3.3.0-SNAP2/scalatest-freespec_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.12/3.3.0-SNAP2/scalatest-funsuite_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.3.0-SNAP2!scalatest_2.12.jar(bundle) (293ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.12/3.3.0-SNAP2/scalatest-funspec_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-featurespec_2.12;3.3.0-SNAP2!scalatest-featurespec_2.12.jar(bundle) (436ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.12/3.3.0-SNAP2/scalatest-propspec_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-funsuite_2.12;3.3.0-SNAP2!scalatest-funsuite_2.12.jar(bundle) (472ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.12/3.3.0-SNAP2/scalatest-refspec_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-funspec_2.12;3.3.0-SNAP2!scalatest-funspec_2.12.jar(bundle) (307ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.12/3.3.0-SNAP2/scalatest-wordspec_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-flatspec_2.12;3.3.0-SNAP2!scalatest-flatspec_2.12.jar(bundle) (632ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.12/3.3.0-SNAP2/scalatest-diagrams_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-propspec_2.12;3.3.0-SNAP2!scalatest-propspec_2.12.jar(bundle) (343ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-freespec_2.12;3.3.0-SNAP2!scalatest-freespec_2.12.jar(bundle) (768ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.12/3.3.0-SNAP2/scalatest-matchers-core_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.12/3.3.0-SNAP2/scalatest-shouldmatchers_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-diagrams_2.12;3.3.0-SNAP2!scalatest-diagrams_2.12.jar(bundle) (166ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.12/3.3.0-SNAP2/scalatest-mustmatchers_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-wordspec_2.12;3.3.0-SNAP2!scalatest-wordspec_2.12.jar(bundle) (201ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.3.0-SNAP2/scalatest-compatible-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-shouldmatchers_2.12;3.3.0-SNAP2!scalatest-shouldmatchers_2.12.jar(bundle) (649ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.3.0-SNAP2/scalactic_2.12-3.3.0-SNAP2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-refspec_2.12;3.3.0-SNAP2!scalatest-refspec_2.12.jar(bundle) (1150ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-mustmatchers_2.12;3.3.0-SNAP2!scalatest-mustmatchers_2.12.jar(bundle) (858ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-compatible;3.3.0-SNAP2!scalatest-compatible.jar(bundle) (944ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.3.0-SNAP2!scalactic_2.12.jar(bundle) (1890ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-core_2.12;3.3.0-SNAP2!scalatest-core_2.12.jar(bundle) (3366ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-matchers-core_2.12;3.3.0-SNAP2!scalatest-matchers-core_2.12.jar(bundle) (2676ms)
+INFO  [info] Done updating.
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.12/3.3.0-SNAP2/scalatest-propspec_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.12/3.3.0-SNAP2/scalatest-refspec_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.12/3.3.0-SNAP2/scalatest-wordspec_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.12/3.3.0-SNAP2/scalatest-funspec_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.3.0-SNAP2/scalactic_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.12/3.3.0-SNAP2/scalatest-shouldmatchers_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-propspec_2.12;3.3.0-SNAP2!scalatest-propspec_2.12.jar(src) (256ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-refspec_2.12;3.3.0-SNAP2!scalatest-refspec_2.12.jar(src) (256ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.12/3.3.0-SNAP2/scalatest-funsuite_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-funspec_2.12;3.3.0-SNAP2!scalatest-funspec_2.12.jar(src) (315ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-shouldmatchers_2.12;3.3.0-SNAP2!scalatest-shouldmatchers_2.12.jar(src) (321ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.12/3.3.0-SNAP2/scalatest-flatspec_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.12/3.3.0-SNAP2/scalatest-diagrams_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.12/3.3.0-SNAP2/scalatest-freespec_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-wordspec_2.12;3.3.0-SNAP2!scalatest-wordspec_2.12.jar(src) (489ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.3.0-SNAP2!scalactic_2.12.jar(src) (571ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.3.0-SNAP2/scalatest_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-diagrams_2.12;3.3.0-SNAP2!scalatest-diagrams_2.12.jar(src) (283ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-flatspec_2.12;3.3.0-SNAP2!scalatest-flatspec_2.12.jar(src) (387ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-freespec_2.12;3.3.0-SNAP2!scalatest-freespec_2.12.jar(src) (378ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-funsuite_2.12;3.3.0-SNAP2!scalatest-funsuite_2.12.jar(src) (438ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.3.0-SNAP2!scalatest_2.12.jar(src) (215ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.3.0-SNAP2/scalatest-compatible-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.12/3.3.0-SNAP2/scalatest-featurespec_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.12/3.3.0-SNAP2/scalatest-mustmatchers_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.12/3.3.0-SNAP2/scalatest-matchers-core_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest-core_2.12/3.3.0-SNAP2/scalatest-core_2.12-3.3.0-SNAP2-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-mustmatchers_2.12;3.3.0-SNAP2!scalatest-mustmatchers_2.12.jar(src) (226ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-compatible;3.3.0-SNAP2!scalatest-compatible.jar(src) (174ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-featurespec_2.12;3.3.0-SNAP2!scalatest-featurespec_2.12.jar(src) (263ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-matchers-core_2.12;3.3.0-SNAP2!scalatest-matchers-core_2.12.jar(src) (564ms)
+INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest-core_2.12;3.3.0-SNAP2!scalatest-core_2.12.jar(src) (844ms)
+INFO  [success] Generated .bloop/hmda.json
+INFO  [success] Generated .bloop/hmda-test.json
+INFO  [success] Total time: 11 s, completed 05-May-2020 10:28:57
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 22s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp1204117693742603318/-1abubm3hpz4e7.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp1204117693742603318/-1abubm3hpz4e7.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp1204117693742603318/-1abubm3hpz4e7.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.23s
+BSP initialization handshake complete.
+INFO  time: indexed workspace in 0.98s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
