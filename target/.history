@@ -30,3 +30,6 @@ exit
 fullClasspath
 inspect run
 exit
+console
+run
+exit

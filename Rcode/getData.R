@@ -17,7 +17,7 @@ url <- paste(urlBase,as.character(StateAbbrData$Abbreviation[IdOhio]),
 tmpFile <- paste('./data/',as.character(StateAbbrData$Abbreviation[IdOhio]),
                  yrs[10],'.csv',sep="")
 download.file(url,destfile=tmpFile)
-data <- read.csv(tmpFile)
+data_lar <- read.csv(tmpFile)
 
 ## CENSUS TRACTS -- NOT USEFUL
 # urlBase <- "https://api.consumerfinance.gov/data/hmda/slice/census_tracts.csv?$where=state_code+%3D+"

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DELL\Projects\hmda\conf\routes:7:1: type HomeController is not a member of package controllers[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /                           controllers.HomeController.index[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DELL\Projects\hmda\conf\routes:7:1: type HomeController is not a member of package controllers[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /                           controllers.HomeController.index[0m
