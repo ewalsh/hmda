@@ -339,3 +339,23 @@ BSP initialization handshake complete.
 INFO  time: indexed workspace in 0.98s
 WARN  no build target: /home/edmund/Projects/hmda/build.sbt
   /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  time: initialize in 0.56s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp1347953882448574832/1ff7zbn7n8k5b.socket'
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp1347953882448574832/1ff7zbn7n8k5b.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp1347953882448574832/1ff7zbn7n8k5b.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.68s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.64s
+INFO  time: indexed workspace in 1.04s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
