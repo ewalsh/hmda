@@ -2772,3 +2772,15 @@ INFO  time: compiled root in 0.68s
 ERROR Failed to compile 'root'
 INFO  compiling root (6 scala sources and 1 java source)
 INFO  time: compiled root in 24s
+INFO  time: initialize in 0.47s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp1619240625104608968/lzjaqlbf3na6.socket'
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp1619240625104608968/lzjaqlbf3na6.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp1619240625104608968/lzjaqlbf3na6.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 5.39s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.72s
