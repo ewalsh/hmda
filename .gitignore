@@ -5,4 +5,6 @@
 hmda.Rproj
 data/
 .bloop
-project/
+project/.bloop/
+project/project/
+project/target/
