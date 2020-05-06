@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="docs"
 		confs="compile, runtime, test, provided, optional, web-assets, web-assets-test, web-plugin, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20200506083513"/>
+		date="20200506083539"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-omnidoc_2.12">
 			<revision name="2.7.4" status="release" pubdate="20191204104931" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/omnidoc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="48">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="2824" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-omnidoc_2.12/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.7.4/play-omnidoc_2.12-2.7.4.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-omnidoc_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="320" time="205" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-omnidoc_2.12/srcs/play-omnidoc_2.12-2.7.4-sources.jar">
+					<artifact name="play-omnidoc_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="320" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-omnidoc_2.12/srcs/play-omnidoc_2.12-2.7.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.7.4/play-omnidoc_2.12-2.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="3179" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-docs_2.12/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.7.4/api/scala/index.html"/>
 				<artifacts>
-					<artifact name="play-docs_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5408" time="152" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-docs_2.12/srcs/play-docs_2.12-2.7.4-sources.jar">
+					<artifact name="play-docs_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5408" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-docs_2.12/srcs/play-docs_2.12-2.7.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -99,7 +99,7 @@
 				<metadata-artifact status="no" details="" size="3861" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.7.4/api/scala/index.html"/>
 				<artifacts>
-					<artifact name="play-akka-http-server_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="19181" time="182" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/srcs/play-akka-http-server_2.12-2.7.4-sources.jar">
+					<artifact name="play-akka-http-server_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19181" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/srcs/play-akka-http-server_2.12-2.7.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -111,7 +111,7 @@
 				<metadata-artifact status="no" details="" size="3801" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="10.1.11" rev-constraint-default="10.1.11" rev-constraint-dynamic="10.1.11" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.11/"/>
 				<artifacts>
-					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="438781" time="492" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.11-sources.jar">
+					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="438781" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -171,7 +171,7 @@
 				<metadata-artifact status="no" details="" size="3759" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-server_2.12/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.7.4/api/scala/index.html"/>
 				<artifacts>
-					<artifact name="play-server_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="42749" time="219" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-server_2.12/srcs/play-server_2.12-2.7.4-sources.jar">
+					<artifact name="play-server_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42749" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-server_2.12/srcs/play-server_2.12-2.7.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -183,7 +183,7 @@
 				<metadata-artifact status="no" details="" size="7799" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play_2.12/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.7.4/api/scala/index.html"/>
 				<artifacts>
-					<artifact name="play_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="529812" time="257" location="/home/edmund/.ivy2/cache/com.typesafe.play/play_2.12/srcs/play_2.12-2.7.4-sources.jar">
+					<artifact name="play_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="529812" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play_2.12/srcs/play_2.12-2.7.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -375,7 +375,7 @@
 				<metadata-artifact status="no" details="" size="23746" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.9.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.9.10.1" rev-constraint-default="2.9.10.1" rev-constraint-dynamic="2.9.10.1" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="998443" time="585" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.9.10.1-sources.jar">
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="998443" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.9.10.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -387,7 +387,7 @@
 				<metadata-artifact status="no" details="" size="29827" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.9.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.9.10" rev-constraint-default="2.9.10" rev-constraint-dynamic="2.9.10" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="67237" time="179" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.9.10-sources.jar">
+					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="67237" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.9.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -399,7 +399,7 @@
 				<metadata-artifact status="no" details="" size="29534" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.9.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.9.10" rev-constraint-default="2.9.10" rev-constraint-dynamic="2.9.10" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="19320" time="191" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.9.10-sources.jar">
+					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19320" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.9.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -411,7 +411,7 @@
 				<metadata-artifact status="no" details="" size="7875" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.9.10" rev-constraint-default="2.9.10" rev-constraint-dynamic="2.9.10" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="68201" time="112" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.9.10-sources.jar">
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="68201" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.9.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -423,7 +423,7 @@
 				<metadata-artifact status="no" details="" size="22962" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.9.10" rev-constraint-default="2.9.10" rev-constraint-dynamic="2.9.10" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="336574" time="646" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.9.10-sources.jar">
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336574" time="0" location="/home/edmund/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.9.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -435,7 +435,7 @@
 				<metadata-artifact status="no" details="" size="3619" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/ivy-2.5.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.5.26" rev-constraint-default="2.5.26" rev-constraint-dynamic="2.5.26" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.5.26"/>
 				<artifacts>
-					<artifact name="akka-slf4j_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2629" time="511" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/srcs/akka-slf4j_2.12-2.5.26-sources.jar">
+					<artifact name="akka-slf4j_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2629" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/srcs/akka-slf4j_2.12-2.5.26-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -507,7 +507,7 @@
 				<metadata-artifact status="no" details="" size="4307" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-streams_2.12/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.7.4/api/scala/index.html"/>
 				<artifacts>
-					<artifact name="play-streams_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="15619" time="552" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-streams_2.12/srcs/play-streams_2.12-2.7.4-sources.jar">
+					<artifact name="play-streams_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15619" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-streams_2.12/srcs/play-streams_2.12-2.7.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -531,7 +531,7 @@
 				<metadata-artifact status="no" details="" size="3810" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.5.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.5.26" rev-constraint-default="2.5.26" rev-constraint-dynamic="2.5.26" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.5.26"/>
 				<artifacts>
-					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="525897" time="474" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.26-sources.jar">
+					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="525897" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.26-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -567,7 +567,7 @@
 				<metadata-artifact status="no" details="" size="3079" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/ivy-2.5.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.5.26" rev-constraint-default="2.5.26" rev-constraint-dynamic="2.5.26" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.5.26"/>
 				<artifacts>
-					<artifact name="akka-protobuf_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="277039" time="815" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.26-sources.jar">
+					<artifact name="akka-protobuf_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="277039" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.26-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -591,7 +591,7 @@
 				<metadata-artifact status="no" details="" size="2864" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/build-link/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.7.4/api/scala/index.html"/>
 				<artifacts>
-					<artifact name="build-link" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4194" time="134" location="/home/edmund/.ivy2/cache/com.typesafe.play/build-link/srcs/build-link-2.7.4-sources.jar">
+					<artifact name="build-link" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4194" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/build-link/srcs/build-link-2.7.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -603,7 +603,7 @@
 				<metadata-artifact status="no" details="" size="2695" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-exceptions/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.7.4/api/scala/index.html"/>
 				<artifacts>
-					<artifact name="play-exceptions" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2324" time="131" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-exceptions/srcs/play-exceptions-2.7.4-sources.jar">
+					<artifact name="play-exceptions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2324" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.play/play-exceptions/srcs/play-exceptions-2.7.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -627,7 +627,7 @@
 				<metadata-artifact status="no" details="" size="3182" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="10.1.11" rev-constraint-default="10.1.11" rev-constraint-dynamic="10.1.11" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.11/"/>
 				<artifacts>
-					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="64987" time="219" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.11-sources.jar">
+					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64987" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -639,7 +639,7 @@
 				<metadata-artifact status="no" details="" size="3374" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.5.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26.pom"/>
 				<caller organisation="ai.economicdatasciences" name="root$sources" conf="docs" rev="2.5.26" rev-constraint-default="2.5.26" rev-constraint-dynamic="2.5.26" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.5.26"/>
 				<artifacts>
-					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="579171" time="859" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.26-sources.jar">
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="579171" time="0" location="/home/edmund/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.26-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar"/>
 					</artifact>
 				</artifacts>
