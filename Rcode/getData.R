@@ -14,11 +14,20 @@ IdOhio <- 36
 url <- paste(urlBase,as.character(StateAbbrData$Abbreviation[IdOhio]),
              urlMiddle,yrs[10],urlSuffix,sep='')
 # download
-tmpFile <- paste('./data/',as.character(StateAbbrData$Abbreviation[IdOhio]),
-                 yrs[10],'.csv',sep="")
+tmpFile <- paste('./data/load/',as.character(StateAbbrData$Abbreviation[IdOhio]),
+                 yrs[10],'lar.csv',sep="")
 download.file(url,destfile=tmpFile)
 data_lar <- read.csv(tmpFile)
-
+# replace NA with NULL
+apply(data_lar,2,function(X){
+  length(grep(TRUE,is.na(X)))
+  # if(length(grep(TRUE,is.na(X))) > 0){
+  #   X[grep(TRUE,is.na(X))] <- NULL
+  # }
+})
+# drop applicant income NA 
+write.csv(data_lar[grep(FALSE,is.na(data_lar$applicant_income_000s)),],
+          tmpFile,row.names=FALSE)
 ## CENSUS TRACTS -- NOT USEFUL
 # urlBase <- "https://api.consumerfinance.gov/data/hmda/slice/census_tracts.csv?$where=state_code+%3D+"
 # urlMiddle <- "+AND+as_of_year+%3D+"
