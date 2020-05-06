@@ -1,0 +1,51 @@
+- name: lar
+  size: large
+  columns: ['action_taken','action_taken_name','agency_code','agency_abbr','agency_name','applicant_ethnicity','applicant_ethnicity_name','applicant_income_000s','applicant_race_1','applicant_race_2','applicant_race_3','applicant_race_4','applicant_race_5','applicant_race_name_1','applicant_race_name_2','applicant_race_name_3','applicant_race_name_4','applicant_race_name_5','applicant_sex','applicant_sex_name','application_date_indicator','as_of_year','census_tract_number','co_applicant_ethnicity','co_applicant_ethnicity_name','co_applicant_race_1','co_applicant_race_2','co_applicant_race_3','co_applicant_race_4','co_applicant_race_5','co_applicant_race_name_1','co_applicant_race_name_2','co_applicant_race_name_3','co_applicant_race_name_4','co_applicant_race_name_5','co_applicant_sex','co_applicant_sex_name','county_code','county_name','denial_reason_1','denial_reason_2','denial_reason_3','denial_reason_name_1','denial_reason_name_2','denial_reason_name_3','edit_status','edit_status_name','hoepa_status','hoepa_status_name','lien_status','lien_status_name','loan_purpose','loan_purpose_name','loan_type','loan_type_name','msamd','msamd_name','owner_occupancy','owner_occupancy_name','preapproval','preapproval_name','property_type','property_type_name','purchaser_type','purchaser_type_name','respondent_id','sequence_number','state_code','state_abbr','state_name','hud_median_family_income','loan_amount_000s','number_of_1_to_4_family_units','number_of_owner_occupied_units','minority_population','population','rate_spread','tract_to_msamd_income']
+  schema: |
+    user_id varchar(10) primary key,
+    birth_year integer not null,
+    country varchar(2) not null,
+    city varchar(60),
+    created_date timestamp without time zone not null,
+    user_settings_crypto_unlocked integer not null,
+    plan varchar(15) not null,
+    attributes_notifications_marketing_push double precision,
+    attributes_notifications_marketing_email double precision,
+    num_contacts integer,
+    num_referrals integer,
+    num_successful_referrals integer
+
+- name: devices
+  size: small
+  columns: ['brand', 'user_id']
+  schema: |
+    brand varchar(7) not null,
+    user_id varchar(10) primary key
+
+- name: notifications
+  size: medium
+  columns: ['reason', 'channel', 'status', 'user_id', 'created_date']
+  schema: |
+    reason varchar(40) not null,
+    channel varchar(5) not null,
+    status varchar(20) not null,
+    user_id varchar(10) not null,
+    created_date timestamp without time zone not null,
+    PRIMARY KEY(user_id, reason, channel, created_date)
+
+- name: transactions
+  size: large
+  columns: ['transaction_id', 'transactions_type', 'transactions_currency', 'amount_usd', 'transactions_state', 'ea_cardholderpresence', 'ea_merchant_mcc', 'ea_merchant_city', 'ea_merchant_country', 'direction', 'user_id', 'created_date']
+  schema: |
+    transaction_id varchar(20) primary key,
+    transactions_type varchar(20) not null,
+    transactions_currency character(3) not null,
+    amount_usd double precision not null,
+    transactions_state varchar(25) not null,
+    ea_cardholderpresence varchar(7),
+    ea_merchant_mcc double precision,
+    ea_merchant_city varchar(20),
+    ea_merchant_country varchar(3),
+    direction varchar(8) not null,
+    user_id varchar(10) not null,
+    created_date timestamp without time zone not null

@@ -1,4 +1,4 @@
-[debug] [hmda-test] Classpath dependencies List()
-[debug] [hmda-test] Dependencies from configurations List(hmda)
-[debug] Bloop wrote the configuration of project 'hmda-test' to '/home/edmund/Projects/hmda/.bloop/hmda-test.json'
-[success] Generated .bloop/hmda-test.json
+[debug] [root-test] Classpath dependencies List()
+[debug] [root-test] Dependencies from configurations List(root)
+[debug] Bloop wrote the configuration of project 'root-test' to 'C:\Users\DELL\Projects\hmda\.bloop\root-test.json'
+[success] Generated .bloop\root-test.json
