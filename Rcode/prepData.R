@@ -42,6 +42,46 @@ approvedTransform <- function(action_code, successCodes, failCodes){
 # function to transform income to distribution function 
 incomeCDFfunc <- ecdf(data_lar3$applicant_income_000s)
 
+# functions for race transforms 
+cnames <- colnames(data_lar3)[c(6:7,9:18,24:35)]
+soleApplicant <- rep(FALSE,nrow(data_lar3))
+soleApplicant[grep(TRUE,as.character(data_lar3$co_applicant_race_name_1) == 'No co-applicant')] <- TRUE
+blackApplicant <- rep(FALSE,nrow(data_lar3))
+blackApplicant[grep(TRUE,as.character(data_lar3$applicant_race_name_1) == 'Black or African American')] <- TRUE
+asianApplicant <- rep(FALSE, nrow(data_lar3))
+asianApplicant[grep(TRUE,as.character(data_lar3$applicant_race_name_1) == 'Asian')] <- TRUE
+otherRaceApplicant <- rep(FALSE,nrow(data_lar3))
+otherRaceApplicant[grep(TRUE,sapply(as.character(data_lar3$applicant_race_name_1),function(nm){
+  out <- TRUE
+  if(nm == 'White'){
+    out <- FALSE
+  }
+  if(nm == 'Black or African American'){
+    out <- FALSE
+  }
+  if(nm == 'Asian'){
+    out <- FALSE
+  }
+  return(out)
+}))] <- TRUE
+
+whiteFriend <- rep(FALSE,nrow(data_lar3))
+whiteFriend[grep(TRUE,apply(data_lar3[,c('applicant_race_name_1','co_applicant_race_name_1')],2,function(X){
+  out <- FALSE 
+  if(X[1] != 'White'){
+    if(X[2] == 'White'){
+      out <- TRUE
+    }
+  }
+}))] <- TRUE
+
+# transform boolean for is male 
+isFemale <- data_lar3$applicant_sex - 1
+
+
 # build training data
 trainData <- data.frame(approved=sapply(data_lar3$action_taken,approvedTransform,successCodes,failCodes),
-                        incomeCDF=incomeCDFfunc(data_lar3$applicant_income_000s))
+                        incomeCDF=incomeCDFfunc(data_lar3$applicant_income_000s),
+                        soleApplicant=soleApplicant,blackApplicant=blackApplicant,asianApplicant=asianApplicant,
+                        otherRaceApplicant=otherRaceApplicant,whiteFriend=whiteFriend,asOfYear=data_lar3$as_of_year,
+                        isFemale=isFemale)

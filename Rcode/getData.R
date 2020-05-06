@@ -1,5 +1,6 @@
 require(quantmod)
 require(stringr)
+require(RJSONIO)
 ### LAR data
 # get state abbreviation data
 StateAbbrData <- read.csv("~/Projects/hmda/Rcode/StateAbbrData.csv")
@@ -15,7 +16,7 @@ url <- paste(urlBase,as.character(StateAbbrData$Abbreviation[IdOhio]),
              urlMiddle,yrs[10],urlSuffix,sep='')
 # download
 tmpFile <- paste('./data/',as.character(StateAbbrData$Abbreviation[IdOhio]),
-                 yrs[10],'.csv',sep="")
+                 yrs[10],'lar.csv',sep="")
 download.file(url,destfile=tmpFile)
 data_lar <- read.csv(tmpFile)
 
@@ -39,7 +40,7 @@ urlBase <- "https://api.census.gov/data/"
 urlMiddle <- "/cbp?get=COUNTY,CSA,EMP,EMP_N,EMPSZES,ESTAB,GEO_ID,GEOTYPE,LFO,MD,MSA,NAICS2012,PAYANN,PAYANN_N,ST,YEAR&for=state:"
 tmpFile <- paste('./data/',as.character(StateAbbrData$Abbreviation[IdOhio]),
                  yrs[10],'census','.json',sep="")
-download.file(paste(urlBase,yrs[10],urlMiddle,as.character(data$state_code[1]),sep=""),
+download.file(paste(urlBase,yrs[10],urlMiddle,as.character(data_lar$state_code[1]),sep=""),
               destfile=tmpFile)
 censusData <- fromJSON(tmpFile)
 censusData.df <- data.frame(matrix(sapply(2:length(censusData),function(iter,censusData){
@@ -59,7 +60,7 @@ url <- paste(urlBase,as.character(StateAbbrData$Abbreviation[IdOhio]),
 tmpFile <- paste('./data/',as.character(StateAbbrData$Abbreviation[IdOhio]),
                  yrs[10],'insts.csv',sep="")
 download.file(url,destfile=tmpFile)
-data <- read.csv(tmpFile)
+data_inst <- read.csv(tmpFile)
 
 ## ECONOMIC DATA
 # delinquency rate on single family residential mortgages
