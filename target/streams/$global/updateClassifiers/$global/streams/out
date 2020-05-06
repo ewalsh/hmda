@@ -109,7 +109,7 @@
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->com.google.j2objc#j2objc-annotations;1.1 [compile->compile(*)]
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->com.google.j2objc#j2objc-annotations;1.1 [compile->master]
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.8 {compile=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master], docs=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.8 {compile=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master], docs=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.8
 [debug] 	found org.scala-lang#scala-library;2.12.8 in sbt-chain
 [debug] 	[2.12.8] org.scala-lang#scala-library;2.12.8
@@ -11566,7 +11566,6 @@
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->compile]
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->runtime(*)]
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->compile]
-[debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->master(compile)]
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->runtime]
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->compile]
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->optional]
@@ -12092,402 +12091,310 @@
 [debug] == resolving dependencies ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.10 [docs->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.akka\akka-parsing_2.12\10.1.11\srcs\akka-parsing_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.akka/akka-parsing_2.12/10.1.11/srcs/akka-parsing_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.akka/akka-protobuf_2.12/2.5.26/srcs/akka-protobuf_2.12-sources.jar
 [debug] 	[NOT REQUIRED] javax.activation#javax.activation-api;1.2.0!javax.activation-api.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-server_2.12\2.7.4\srcs\play-server_2.12-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-ahc-ws-standalone_2.12\2.0.8\srcs\play-ahc-ws-standalone_2.12-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.akka\akka-protobuf_2.12\2.5.26\srcs\akka-protobuf_2.12-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-guice_2.12\2.7.4\srcs\play-guice_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\org.slf4j\slf4j-api\1.7.26\srcs\slf4j-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-guice_2.12;2.7.4!play-guice_2.12.jar(src) (299ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-server_2.12/2.7.4/srcs/play-server_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-ahc-ws-standalone_2.12/2.0.8/srcs/play-ahc-ws-standalone_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-guice_2.12/2.7.4/srcs/play-guice_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\org.slf4j\jcl-over-slf4j\1.7.26\srcs\jcl-over-slf4j-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.12;2.5.26!akka-protobuf_2.12.jar(src) (323ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.9.10\srcs\jackson-core-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar
+[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.26!jcl-over-slf4j.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.9.10/srcs/jackson-core-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.12;2.7.4!play-server_2.12.jar(src) (337ms)
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.12;10.1.11!akka-parsing_2.12.jar(src) (340ms)
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ahc-ws-standalone_2.12;2.0.8!play-ahc-ws-standalone_2.12.jar(src) (339ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-functional_2.12\2.7.4\srcs\play-functional_2.12-sources.jar
-[debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.7.4/play-functional_2.12-2.7.4-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.9.10.1\srcs\jackson-databind-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-ahc-ws_2.12\2.7.4\srcs\play-ahc-ws_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.7.4/play-functional_2.12-2.7.4-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.7.4/play-functional_2.12-2.7.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.4/play-guice_2.12-2.7.4-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.4/play-server_2.12-2.7.4-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-guice_2.12;2.7.4!play-guice_2.12.jar(src) (218ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.12;2.7.4!play-server_2.12.jar(src) (219ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.12;10.1.11!akka-parsing_2.12.jar(src) (219ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-ahc-ws_2.12/2.7.4/srcs/play-ahc-ws_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.7.4!play-functional_2.12.jar(src)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.8/play-ahc-ws-standalone_2.12-2.0.8-sources.jar
+[debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ahc-ws-standalone_2.12;2.0.8!play-ahc-ws-standalone_2.12.jar(src) (221ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.9.10.1/srcs/jackson-databind-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-cache_2.12/2.7.4/srcs/play-cache_2.12-sources.jar
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.7.4/play-cache_2.12-2.7.4-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-streams_2.12/2.7.4/srcs/play-streams_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.7.4/play-cache_2.12-2.7.4-sources.jar ...
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.7.4/play-functional_2.12-2.7.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar
-[info] 	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.26!jcl-over-slf4j.jar(src) (330ms)
-[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar(src) (636ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-cache_2.12\2.7.4\srcs\play-cache_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.7.4/play-cache_2.12-2.7.4-sources.jar
-[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-streams_2.12\2.7.4\srcs\play-streams_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.7.4/play-cache_2.12-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.7.4/play-cache_2.12-2.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.7.4/play-functional_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.7.4!play-functional_2.12.jar(src) (375ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.12\1.1.2\srcs\scala-parser-combinators_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ahc-ws_2.12;2.7.4!play-ahc-ws_2.12.jar(src) (383ms)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\twirl-api_2.12\1.4.2\srcs\twirl-api_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/twirl-api_2.12-1.4.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/twirl-api_2.12-1.4.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/twirl-api_2.12-1.4.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.7.4/play-cache_2.12-2.7.4-sources.jar.sha1
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar.sha1
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.10!jackson-core.jar(src) (421ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.10!jackson-core.jar(src) (646ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.4.2!twirl-api_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.9.0!scala-java8-compat_2.12.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-ws-standalone-xml_2.12\2.0.8\srcs\play-ws-standalone-xml_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-ws-standalone-xml_2.12/2.0.8/srcs/play-ws-standalone-xml_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.8/play-ws-standalone-xml_2.12-2.0.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.7.4/play-cache_2.12-2.7.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-cache_2.12;2.7.4!play-cache_2.12.jar(src) (484ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.7.4!play-json_2.12.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-exceptions/2.7.4/srcs/play-exceptions-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.8/play-ws-standalone-xml_2.12-2.0.8-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.8/play-ws-standalone-xml_2.12-2.0.8-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.7.4/play-cache_2.12-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-cache_2.12;2.7.4!play-cache_2.12.jar(src) (268ms)
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.12;2.7.4!play-streams_2.12.jar(src) (265ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-json_2.12\2.7.4\srcs\play-json_2.12-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-exceptions\2.7.4\srcs\play-exceptions-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.7.4/play-json_2.12-2.7.4-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/twirl-api_2.12-1.4.2-sources.jar.sha1
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.7.4/play-json_2.12-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.7.4/play-json_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.8/play-ws-standalone-xml_2.12-2.0.8-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/twirl-api_2.12-1.4.2-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.12;1.4.2!twirl-api_2.12.jar(src) (216ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play_2.12\2.7.4\srcs\play_2.12-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.4/play-streams_2.12-2.7.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.12;2.7.4!play-streams_2.12.jar(src) (552ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play_2.12/2.7.4/srcs/play_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(src) (264ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\build-link\2.7.4\srcs\build-link-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.8/play-ws-standalone-xml_2.12-2.0.8-sources.jar.sha1
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ahc-ws_2.12;2.7.4!play-ahc-ws_2.12.jar(src) (566ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/build-link/2.7.4/srcs/build-link-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar.sha1
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4-sources.jar
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.8/play-ws-standalone-xml_2.12-2.0.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone-xml_2.12;2.0.8!play-ws-standalone-xml_2.12.jar(src) (267ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone-xml_2.12;2.0.8!play-ws-standalone-xml_2.12.jar(src) (141ms)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-ehcache_2.12\2.7.4\srcs\play-ehcache_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-ehcache_2.12/2.7.4/srcs/play-ehcache_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.7.4/play-json_2.12-2.7.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-exceptions;2.7.4!play-exceptions.jar(src) (408ms)
-[debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.17!animal-sniffer-annotations.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-ws-standalone_2.12\2.0.8\srcs\play-ws-standalone_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.8/play-ws-standalone_2.12-2.0.8-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.7.4/play-json_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.7.4!play-json_2.12.jar(src) (416ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.9.10\srcs\jackson-datatype-jdk8-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4-sources.jar.sha1
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.10.1!jackson-databind.jar(src) (585ms)
+[debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.17!animal-sniffer-annotations.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-ws-standalone_2.12/2.0.8/srcs/play-ws-standalone_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.8/play-ws-standalone_2.12-2.0.8-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.12;2.5.26!akka-protobuf_2.12.jar(src) (815ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.10/srcs/jackson-datatype-jdk8-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.8/play-ws-standalone_2.12-2.0.8-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.8/play-ws-standalone_2.12-2.0.8-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.10.1!jackson-databind.jar(src) (998ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-ws-standalone-json_2.12\2.0.8\srcs\play-ws-standalone-json_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.8/play-ws-standalone-json_2.12-2.0.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4-sources.jar.sha1
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-exceptions;2.7.4!play-exceptions.jar(src) (131ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-ws-standalone-json_2.12/2.0.8/srcs/play-ws-standalone-json_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.8/play-ws-standalone-json_2.12-2.0.8-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.8/play-ws-standalone-json_2.12-2.0.8-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.8/play-ws-standalone-json_2.12-2.0.8-sources.jar
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.8/play-ws-standalone-json_2.12-2.0.8-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.12;2.7.4!play_2.12.jar(src) (546ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe\ssl-config-core_2.12\0.3.8\srcs\ssl-config-core_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.8/ssl-config-core_2.12-0.3.8-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar.sha1
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ehcache_2.12;2.7.4!play-ehcache_2.12.jar(src) (474ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.7.4!build-link.jar(src) (134ms)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.8!ssl-config-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.9.1!jjwt.jar(src)
-[info] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.7.4!build-link.jar(src) (529ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.akka\akka-slf4j_2.12\2.5.26\srcs\akka-slf4j_2.12-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.8/ssl-config-core_2.12-0.3.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.8/ssl-config-core_2.12-0.3.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.8/play-ws-standalone_2.12-2.0.8-sources.jar.sha1
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.2.0!scala-xml_2.12.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\shaded-asynchttpclient\2.0.8\srcs\shaded-asynchttpclient-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.akka/akka-slf4j_2.12/2.5.26/srcs/akka-slf4j_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.8/play-ws-standalone-json_2.12-2.0.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone-json_2.12;2.0.8!play-ws-standalone-json_2.12.jar(src) (224ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.akka\akka-stream_2.12\2.5.26\srcs\akka-stream_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.9.10!jackson-datatype-jdk8.jar(src) (252ms)
-[debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.3.1!jaxb-api.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-logback_2.12\2.7.4\srcs\play-logback_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.8/ssl-config-core_2.12-0.3.8-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.8/play-ws-standalone-json_2.12-2.0.8-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.8/play-ws-standalone_2.12-2.0.8-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.8/play-ws-standalone-json_2.12-2.0.8-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone-json_2.12;2.0.8!play-ws-standalone-json_2.12.jar(src) (153ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.2.0!scala-xml_2.12.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/shaded-asynchttpclient/2.0.8/srcs/shaded-asynchttpclient-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.8/play-ws-standalone_2.12-2.0.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone_2.12;2.0.8!play-ws-standalone_2.12.jar(src) (317ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.9.10!jackson-datatype-jdk8.jar(src) (191ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone_2.12;2.0.8!play-ws-standalone_2.12.jar(src) (201ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.akka/akka-stream_2.12/2.5.26/srcs/akka-stream_2.12-sources.jar
+[debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.3.1!jaxb-api.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-logback_2.12/2.7.4/srcs/play-logback_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.12/2.7.4/play-ehcache_2.12-2.7.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ehcache_2.12;2.7.4!play-ehcache_2.12.jar(src) (211ms)
 [debug] 	[NOT REQUIRED] javax.cache#cache-api;1.0.0!cache-api.jar(src)
 [debug] 	[NOT REQUIRED] org.ehcache#jcache;1.0.1!jcache.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\org.slf4j\jul-to-slf4j\1.7.26\srcs\jul-to-slf4j-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.8/ssl-config-core_2.12-0.3.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.3.8!ssl-config-core_2.12.jar(src) (170ms)
+[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.26!jul-to-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.9.2!joda-convert.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.10.1!joda-time.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\cachecontrol_2.12\1.1.7\srcs\cachecontrol_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.7/cachecontrol_2.12-1.1.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.7/cachecontrol_2.12-1.1.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.7/cachecontrol_2.12-1.1.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#shaded-asynchttpclient;2.0.8!shaded-asynchttpclient.jar(src) (201ms)
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.12;2.5.26!akka-slf4j_2.12.jar(src) (196ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#cachecontrol_2.12;1.1.7!cachecontrol_2.12.jar(src)
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4-sources.jar.sha1
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
 [debug] 	[NOT REQUIRED] org.checkerframework#checker-qual;2.5.2!checker-qual.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;4.2.2!guice.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.akka\akka-http-core_2.12\10.1.11\srcs\akka-http-core_2.12-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.google.guava\failureaccess\1.0.1\srcs\failureaccess-sources.jar
+[debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#failureaccess;1.0.1!failureaccess.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.akka/akka-http-core_2.12/10.1.11/srcs/akka-http-core_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.4/play_2.12-2.7.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.12;2.7.4!play_2.12.jar(src) (257ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/filters-helpers_2.12/2.7.4/srcs/filters-helpers_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.4/filters-helpers_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.4/filters-helpers_2.12-2.7.4-sources.jar ...
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-logback_2.12;2.7.4!play-logback_2.12.jar(src) (271ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\filters-helpers_2.12\2.7.4\srcs\filters-helpers_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.4/filters-helpers_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.7/cachecontrol_2.12-1.1.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26-sources.jar
-[info] 	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.26!jul-to-slf4j.jar(src) (238ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-jdbc_2.12\2.7.4\srcs\play-jdbc_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.7.4/play-jdbc_2.12-2.7.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.4/filters-helpers_2.12-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.4/filters-helpers_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.8/shaded-asynchttpclient-2.0.8-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.4/play-logback_2.12-2.7.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-logback_2.12;2.7.4!play-logback_2.12.jar(src) (177ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#shaded-asynchttpclient;2.0.8!shaded-asynchttpclient.jar(src) (190ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-jdbc_2.12/2.7.4/srcs/play-jdbc_2.12-sources.jar
+[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;3.3.1!HikariCP.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.7.4/play-jdbc_2.12-2.7.4-sources.jar
+[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;27.1-jre!guava.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/shaded-oauth/2.0.8/srcs/shaded-oauth-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.8/shaded-oauth-2.0.8-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.7.4/play-jdbc_2.12-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.7.4/play-jdbc_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.7/cachecontrol_2.12-1.1.7-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#cachecontrol_2.12;1.1.7!cachecontrol_2.12.jar(src) (657ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.zaxxer\HikariCP\3.3.1\srcs\HikariCP-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.3.1/HikariCP-3.3.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.4/filters-helpers_2.12-2.7.4-sources.jar.sha1
-[info] 	[SUCCESSFUL ] com.google.guava#failureaccess;1.0.1!failureaccess.jar(src) (577ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.12;2.5.26!akka-stream_2.12.jar(src) (771ms)
-[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.google.guava\guava\27.1-jre\srcs\guava-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\shaded-oauth\2.0.8\srcs\shaded-oauth-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.8/shaded-oauth-2.0.8-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.8/shaded-oauth-2.0.8-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.8/shaded-oauth-2.0.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.3.1/HikariCP-3.3.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.3.1/HikariCP-3.3.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.7.4/play-jdbc_2.12-2.7.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.12;10.1.11!akka-http-core_2.12.jar(src) (627ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.akka\akka-actor_2.12\2.5.26\srcs\akka-actor_2.12-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.4/filters-helpers_2.12-2.7.4-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.26/akka-slf4j_2.12-2.5.26-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.12;2.5.26!akka-slf4j_2.12.jar(src) (511ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.26/srcs/akka-actor_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.7.4/play-jdbc_2.12-2.7.4-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.4/filters-helpers_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.12;2.7.4!filters-helpers_2.12.jar(src) (581ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.9.10\srcs\jackson-annotations-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.12;2.7.4!filters-helpers_2.12.jar(src) (432ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.9.10/srcs/jackson-annotations-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.12;2.5.26!akka-stream_2.12.jar(src) (474ms)
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.7.4/play-jdbc_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.12;2.7.4!play-jdbc_2.12.jar(src) (753ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar
 [debug] 	[NOT REQUIRED] net.sf.ehcache#ehcache;2.10.6!ehcache.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-ws_2.12\2.7.4\srcs\play-ws_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-ws_2.12/2.7.4/srcs/play-ws_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.4/play-ws_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.3.1/HikariCP-3.3.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.8/shaded-oauth-2.0.8-sources.jar.sha1
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.12;2.7.4!play-jdbc_2.12.jar(src) (323ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.12;10.1.11!akka-http-core_2.12.jar(src) (492ms)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-akka-http-server_2.12/2.7.4/srcs/play-akka-http-server_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar
+[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.2.2!guice-assistedinject.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-jdbc-api_2.12/2.7.4/srcs/play-jdbc-api_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.4/play-ws_2.12-2.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.8/shaded-oauth-2.0.8-sources.jar.sha1
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.4/play-ws_2.12-2.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.8/shaded-oauth-2.0.8-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.3.1/HikariCP-3.3.1-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#shaded-oauth;2.0.8!shaded-oauth.jar(src) (1081ms)
-[info] 	[SUCCESSFUL ] com.zaxxer#HikariCP;3.3.1!HikariCP.jar(src) (1107ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-akka-http-server_2.12\2.7.4\srcs\play-akka-http-server_2.12-sources.jar
-[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.2.2!guice-assistedinject.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-jdbc-api_2.12\2.7.4\srcs\play-jdbc-api_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.4/play-ws_2.12-2.7.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.10!jackson-annotations.jar(src) (1212ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#shaded-oauth;2.0.8!shaded-oauth.jar(src) (364ms)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
 [debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.2.0!error_prone_annotations.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.9.10\srcs\jackson-datatype-jsr310-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.10/srcs/jackson-datatype-jsr310-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.26!akka-actor_2.12.jar(src) (1308ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.4/play-ws_2.12-2.7.4-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws_2.12;2.7.4!play-ws_2.12.jar(src) (66ms)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.141.59!selenium-api.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.8!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-funspec_2.12;3.3.0-SNAP2!scalatest-funspec_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-refspec_2.12;3.3.0-SNAP2!scalatest-refspec_2.12.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-transport\4.1.43.Final\srcs\netty-transport-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/io.netty/netty-transport/4.1.43.Final/srcs/netty-transport-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.4/play-ws_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws_2.12;2.7.4!play-ws_2.12.jar(src) (1139ms)
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.10!jackson-annotations.jar(src) (112ms)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-propspec_2.12;3.3.0-SNAP2!scalatest-propspec_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-exec;1.3!commons-exec.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.141.59!selenium-remote-driver.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.netty\netty-reactive-streams\2.0.3\srcs\netty-reactive-streams-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.12;2.7.4!play-jdbc-api_2.12.jar(src) (679ms)
+[debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams;2.0.3!netty-reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.12.v20180830!jetty-io.jar(src)
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-akka-http-server_2.12;2.7.4!play-akka-http-server_2.12.jar(src) (682ms)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-wordspec_2.12;3.3.0-SNAP2!scalatest-wordspec_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.3.0-SNAP2!scalactic_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.141.59!selenium-support.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-shouldmatchers_2.12;3.3.0-SNAP2!scalatest-shouldmatchers_2.12.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.netty\netty-reactive-streams-http\2.0.3\srcs\netty-reactive-streams-http-sources.jar
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.141.59!selenium-support.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-funsuite_2.12;3.3.0-SNAP2!scalatest-funsuite_2.12.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.3/netty-reactive-streams-http-2.0.3-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams-http;2.0.3!netty-reactive-streams-http.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.6!httpmime.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-flatspec_2.12;3.3.0-SNAP2!scalatest-flatspec_2.12.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-transport-native-epoll\4.1.43.Final\srcs\netty-transport-native-epoll-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/io.netty/netty-transport-native-epoll/4.1.43.Final/srcs/netty-transport-native-epoll-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.3/netty-reactive-streams-http-2.0.3-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.3/netty-reactive-streams-http-2.0.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;27.1-jre!guava.jar(src) (1995ms)
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.7.4/play-jdbc-api_2.12-2.7.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.12;2.7.4!play-jdbc-api_2.12.jar(src) (135ms)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-freespec_2.12;3.3.0-SNAP2!scalatest-freespec_2.12.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;3.141.59!selenium-firefox-driver.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.33!htmlunit-core-js.jar(src)
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.10!jackson-datatype-jsr310.jar(src) (699ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-netty-server_2.12\2.7.4\srcs\play-netty-server_2.12-sources.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest-diagrams_2.12;3.3.0-SNAP2!scalatest-diagrams_2.12.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-netty-server_2.12/2.7.4/srcs/play-netty-server_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.4/play-akka-http-server_2.12-2.7.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-akka-http-server_2.12;2.7.4!play-akka-http-server_2.12.jar(src) (182ms)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest-diagrams_2.12;3.3.0-SNAP2!scalatest-diagrams_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.12.v20180830!jetty-xml.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.3.0-SNAP2!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-core_2.12;3.3.0-SNAP2!scalatest-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.12.v20180830!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-text;1.4!commons-text.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.12.v20180830!jetty-http.jar(src)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3-sources.jar.sha1
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.10!httpcore.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-codec-http\4.1.34.Final\srcs\netty-codec-http-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.3/netty-reactive-streams-http-2.0.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar
-[info] 	[SUCCESSFUL ] io.netty#netty-transport;4.1.43.Final!netty-transport.jar(src) (798ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-buffer\4.1.43.Final\srcs\netty-buffer-sources.jar
+[debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.1.34.Final!netty-codec-http.jar(src)
+[debug] 		tried /home/edmund/.ivy2/local/io.netty/netty-buffer/4.1.43.Final/srcs/netty-buffer-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.netty#netty-reactive-streams;2.0.3!netty-reactive-streams.jar(src) (720ms)
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.10!jackson-datatype-jsr310.jar(src) (179ms)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.12.v20180830!jetty-client.jar(src)
 [debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.14.0!okio.jar(src)
 [debug] 	[NOT REQUIRED] commons-net#commons-net;3.6!commons-net.jar(src)
@@ -12503,131 +12410,115 @@
 [debug] 	[NOT REQUIRED] xerces#xercesImpl;2.12.0!xercesImpl.jar(src)
 [debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.33!htmlunit.jar(src)
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar.sha1
 [debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.11.0!okhttp.jar(src)
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar.sha1
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.6!commons-io.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-codec\4.1.34.Final\srcs\netty-codec-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.3/netty-reactive-streams-http-2.0.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.netty#netty-reactive-streams-http;2.0.3!netty-reactive-streams-http.jar(src) (924ms)
+[debug] 	[NOT REQUIRED] io.netty#netty-codec;4.1.34.Final!netty-codec.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-common;9.4.12.v20180830!websocket-common.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#htmlunit-driver;2.33.3!htmlunit-driver.jar(src)
 [debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
 [debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-matchers-core_2.12;3.3.0-SNAP2!scalatest-matchers-core_2.12.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-common\4.1.43.Final\srcs\netty-common-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/io.netty/netty-common/4.1.43.Final/srcs/netty-common-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar
-[info] 	[SUCCESSFUL ] io.netty#netty-transport-native-epoll;4.1.43.Final!netty-transport-native-epoll.jar(src) (952ms)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.12;2.7.4!play-netty-server_2.12.jar(src) (188ms)
+[info] 	[SUCCESSFUL ] io.netty#netty-transport-native-epoll;4.1.43.Final!netty-transport-native-epoll.jar(src) (254ms)
 [debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.8.15!byte-buddy.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-compatible;3.3.0-SNAP2!scalatest-compatible.jar(src)
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.33!neko-htmlunit.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-transport-native-unix-common\4.1.43.Final\srcs\netty-transport-native-unix-common-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/io.netty/netty-transport-native-unix-common/4.1.43.Final/srcs/netty-transport-native-unix-common-sources.jar
+[debug] 	[NOT REQUIRED] io.netty#netty-handler;4.1.34.Final!netty-handler.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-test_2.12/2.7.4/srcs/play-test_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar ...
 [info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.4/play-netty-server_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.12;2.7.4!play-netty-server_2.12.jar(src) (1537ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-handler\4.1.34.Final\srcs\netty-handler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final-sources.jar
-[info] 	[SUCCESSFUL ] io.netty#netty-codec;4.1.34.Final!netty-codec.jar(src) (1524ms)
-[info] 	[SUCCESSFUL ] io.netty#netty-buffer;4.1.43.Final!netty-buffer.jar(src) (1547ms)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-test_2.12\2.7.4\srcs\play-test_2.12-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\io.netty\netty-resolver\4.1.43.Final\srcs\netty-resolver-sources.jar
+[info] 	[SUCCESSFUL ] io.netty#netty-buffer;4.1.43.Final!netty-buffer.jar(src) (367ms)
+[debug] 		tried /home/edmund/.ivy2/local/io.netty/netty-resolver/4.1.43.Final/srcs/netty-resolver-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar.sha1
 [info] downloading https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar
-[info] 	[SUCCESSFUL ] io.netty#netty-transport-native-unix-common;4.1.43.Final!netty-transport-native-unix-common.jar(src) (1202ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar
+[info] 	[SUCCESSFUL ] io.netty#netty-transport;4.1.43.Final!netty-transport.jar(src) (551ms)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.12.v20180830!websocket-client.jar(src)
 [debug] 	[NOT REQUIRED] org.scalameta#semanticdb-scalac_2.12.8;4.1.9!semanticdb-scalac_2.12.8.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
-[info] 	[SUCCESSFUL ] io.netty#netty-common;4.1.43.Final!netty-common.jar(src) (1245ms)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-docs_2.12\2.7.4\srcs\play-docs_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-docs_2.12/2.7.4/srcs/play-docs_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.12;2.7.4!play-test_2.12.jar(src) (318ms)
+[info] 	[SUCCESSFUL ] io.netty#netty-transport-native-unix-common;4.1.43.Final!netty-transport-native-unix-common.jar(src) (318ms)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.6.0!pegdown.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-doc_2.12\2.0.2\srcs\play-doc_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/2.0.2/play-doc_2.12-2.0.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/2.0.2/play-doc_2.12-2.0.2-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/2.0.2/play-doc_2.12-2.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/2.0.2/play-doc_2.12-2.0.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-sources.jar
-[info] 	[SUCCESSFUL ] io.netty#netty-resolver;4.1.43.Final!netty-resolver.jar(src) (507ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.12;2.0.2!play-doc_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)
-[debug] 		tried C:\Users\DELL\.ivy2\local\com.typesafe.play\play-omnidoc_2.12\2.7.4\srcs\play-omnidoc_2.12-sources.jar
+[debug] 		tried /home/edmund/.ivy2/local/com.typesafe.play/play-omnidoc_2.12/2.7.4/srcs/play-omnidoc_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.7.4/play-omnidoc_2.12-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.4/play-test_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.12;2.7.4!play-test_2.12.jar(src) (527ms)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src)
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-sources.jar.sha1
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.7.4/play-omnidoc_2.12-2.7.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.7.4/play-omnidoc_2.12-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/2.0.2/play-doc_2.12-2.0.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar
+[info] 	[SUCCESSFUL ] io.netty#netty-common;4.1.43.Final!netty-common.jar(src) (514ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar.sha1
+[info] 	[SUCCESSFUL ] io.netty#netty-resolver;4.1.43.Final!netty-resolver.jar(src) (206ms)
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.4/play-docs_2.12-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-doc_2.12;2.0.2!play-doc_2.12.jar(src) (418ms)
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.12;2.7.4!play-docs_2.12.jar(src) (420ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final-sources.jar.sha1
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.12;2.7.4!play-docs_2.12.jar(src) (152ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.26!akka-actor_2.12.jar(src) (859ms)
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.7.4/play-omnidoc_2.12-2.7.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final-sources.jar
-[info] 	[SUCCESSFUL ] io.netty#netty-handler;4.1.34.Final!netty-handler.jar(src) (1305ms)
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.7.4/play-omnidoc_2.12-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final-sources.jar
-[info] 	[SUCCESSFUL ] io.netty#netty-codec-http;4.1.34.Final!netty-codec-http.jar(src) (2857ms)
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.12;2.7.4!play-omnidoc_2.12.jar(src) (665ms)
-[debug] :: resolution report :: resolve 4538ms :: artifacts dl 7255ms
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT compile produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-compile.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT runtime produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-runtime.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT test produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-test.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT provided produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-provided.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT optional produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-optional.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT web-assets produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-web-assets.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT web-assets-test produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-web-assets-test.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT web-plugin produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-web-plugin.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT universal produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-universal.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT universal-docs produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-universal-docs.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT universal-src produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-universal-src.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT windows produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-windows.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT docker produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-docker.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT linux produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-linux.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT rpm produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-rpm.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT debian produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-debian.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT compile-internal produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-compile-internal.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT runtime-internal produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-runtime-internal.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT test-internal produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-test-internal.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT plugin produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-plugin.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT pom produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-pom.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT scala-tool produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-scala-tool.xml
-[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT docs produced in C:\Users\DELL\Projects\hmda\target\scala-2.12\resolution-cache\reports\ai.economicdatasciences-root$sources-docs.xml
-[debug] 	resolve done (4538ms resolve - 7255ms download)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.12;2.7.4!play-omnidoc_2.12.jar(src) (205ms)
+[debug] :: resolution report :: resolve 2313ms :: artifacts dl 2396ms
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT compile produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-compile.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT runtime produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-runtime.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT test produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-test.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT provided produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-provided.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT optional produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-optional.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT web-assets produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-web-assets.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT web-assets-test produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-web-assets-test.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT web-plugin produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-web-plugin.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT universal produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-universal.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT universal-docs produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-universal-docs.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT universal-src produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-universal-src.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT windows produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-windows.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT docker produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-docker.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT linux produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-linux.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT rpm produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-rpm.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT debian produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-debian.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT compile-internal produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-compile-internal.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT runtime-internal produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-runtime-internal.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT test-internal produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-test-internal.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT plugin produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-plugin.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT pom produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-pom.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT scala-tool produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-scala-tool.xml
+[debug] 	report for ai.economicdatasciences#root$sources;0.1.0-SNAPSHOT docs produced in /home/edmund/Projects/hmda/target/scala-2.12/resolution-cache/reports/ai.economicdatasciences-root$sources-docs.xml
+[debug] 	resolve done (2313ms resolve - 2396ms download)
