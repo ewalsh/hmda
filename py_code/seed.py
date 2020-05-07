@@ -14,12 +14,12 @@ def seed_one(state, yr):
     url_base = "https://api.consumerfinance.gov/data/hmda/slice/hmda_lar.csv?$where=state_abbr+%3D+'"
     url_middle = "'+AND+as_of_year+%3D+"
     url_end = "&$limit=0&$offset=0"
-    url_full = url_base + state + url_middle + yr + url_end
+    url_full = url_base + state + url_middle + str(yr) + url_end
     data_lar = pd.read_csv(url_full, dtype=object)
     # dropping rows numbers
     data_lar = data_lar.iloc[:, 1:data_lar.shape[1]]
     ids = {}
-    for i in np.arange(0, data_lar.shape[0]):
+    for i in np.linspace(0, data_lar.shape[0]):
         ids[i] = uuid.uuid4()
 
     data_lar['uuid'] = ids
