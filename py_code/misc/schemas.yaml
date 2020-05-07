@@ -81,3 +81,16 @@
     rate_spread double precision,
     tract_to_msamd_income double precision,
     uuid uuid primary key
+
+- name: fips
+  size: small
+  columns: ['id', 'level', 'state_code', 'county_code', 'county_sub', 'place_code', 'city_code', 'area_name']
+  schema: |
+    id integer primary key,
+    level varchar(3),
+    state_code varchar(2),
+    county_code varchar(3),
+    county_sub varchar(5),
+    place_code varchar(5),
+    city_code varchar(5),
+    area_name varchar(80)

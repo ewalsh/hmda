@@ -22,7 +22,7 @@ def seed_one(state, yr):
         ids[i] = uuid.uuid4()
 
     data_lar['uuid'] = ids.values()
-    f_str = '../data/load/' + state + str(yr) + 'lar.csv'
+    f_str = '../data/load/hmda_lar.csv'
     data_lar.to_csv(f_str, index=False)
     return(data_lar)
 
