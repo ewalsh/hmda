@@ -26,3 +26,4 @@ dbname = 'hmda_db'
 user = 'postgres'
 state = 'OH'
 yr = 2016
+api_key = '8dadaedad2b940dd8ffff397507286b479540d00'
