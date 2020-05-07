@@ -40,7 +40,7 @@ approvedTransform <- function(action_code, successCodes, failCodes){
 }
 
 # function to transform income to distribution function 
-incomeCDFfunc <- ecdf(data_lar3$applicant_income_000s)
+incomeCDFfunc <- ecdf(data_lar3$applicant_income_000s) # should think about per county
 
 # functions for race transforms 
 cnames <- colnames(data_lar3)[c(6:7,9:18,24:35)]
@@ -78,10 +78,21 @@ whiteFriend[grep(TRUE,apply(data_lar3[,c('applicant_race_name_1','co_applicant_r
 # transform boolean for is male 
 isFemale <- data_lar3$applicant_sex - 1
 
+# first lien 
+firstLien <- data_lar3$lien_status == 1
+
+# reason other than purchase for loan 
+refi <- data_lar3$loan_purpose == 3
+homeImprove <- data_lar3$loan_purpose == 2
+
+# loan type non-conventional
+FHAinsured <- data_lar3$loan_type == 2
+VAguaranteed <- data_lar3$loan_type == 3
+FSAguaranteed <- data_lar3$loan_type == 4
 
 # build training data
 trainData <- data.frame(approved=sapply(data_lar3$action_taken,approvedTransform,successCodes,failCodes),
                         incomeCDF=incomeCDFfunc(data_lar3$applicant_income_000s),
-                        soleApplicant=soleApplicant,blackApplicant=blackApplicant,asianApplicant=asianApplicant,
-                        otherRaceApplicant=otherRaceApplicant,whiteFriend=whiteFriend,asOfYear=data_lar3$as_of_year,
-                        isFemale=isFemale)
+                        soleApplicant=soleApplicant*1,blackApplicant=blackApplicant*1,asianApplicant=asianApplicant*1,
+                        otherRaceApplicant=otherRaceApplicant*1,whiteFriend=whiteFriend*1,asOfYear=data_lar3$as_of_year,
+                        isFemale=isFemale, firstLien=firstLien*1, refinancing=refi*1, homeImprovement=homeImprove*1)

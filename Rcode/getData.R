@@ -49,7 +49,7 @@ urlMiddle <- "/cbp?get=COUNTY,EMP,EMPSZES,EMPSZES_LABEL,ESTAB,NAICS2017,NAICS201
 # tmpFile <- paste('./data/',as.character(StateAbbrData$Abbreviation[IdOhio]),
 #                  yrs[10],'county',cIds[1],'census','.json',sep="")
 tmpFile <- './data/tmpCensus.json'
-for(i in 34:length(cIds)){
+for(i in 1:length(cIds)){
   cIdStr = as.character(cIds[i])
   if(str_length(cIdStr) < 3){
     cIdStr <- paste(paste(rep('0',3-str_length(cIdStr)),collapse=''),cIdStr,sep='')
@@ -119,26 +119,30 @@ diffLogData <- diff(log(MDOAH[,1]))
 mortDebtOut <- data.frame(MortDebtOut=(diffLogData-mean(diffLogData,na.rm=TRUE))/sd(diffLogData,na.rm=TRUE),
                          row.names=row.names(MDOAH)[-1])
 # find year and month/quarter
-mortDebtOut <- cbind(mortDebtOut,data.frame(year=as.numeric(str_sub(row.names(mortDebtOut),1,4)),
-                                          month=as.numeric(str_sub(row.names(mortDebtOut),6,7)),
-                                          type=rep('mort_debt_out',nrow(mortDebtOut)))
-)
+mortDebtOut <- data.frame(value=mortDebtOut$MortDebtOut,
+                          year=as.numeric(str_sub(row.names(mortDebtOut),1,4)),
+                          month=as.numeric(str_sub(row.names(mortDebtOut),6,7)),
+                          type=rep('mort_debt_out',nrow(mortDebtOut)),
+                          date=row.names(mortDebtOut))
+  
 # net percentage of domestic banks tightening standards for auto loans
 STDSAUTO = data.frame(getSymbols("STDSAUTO",src="FRED",auto.assign=FALSE))
 
 # find year and month/quarter
-autoStandards <- cbind(STDSAUTO,data.frame(year=as.numeric(str_sub(row.names(STDSAUTO),1,4)),
-                                          month=as.numeric(str_sub(row.names(STDSAUTO),6,7)),
-                                          type=rep('auto_standards',nrow(STDSAUTO)))
-)
+autoStandards <- data.frame(value=STDSAUTO$STDSAUTO,
+                            year=as.numeric(str_sub(row.names(STDSAUTO),1,4)),
+                            month=as.numeric(str_sub(row.names(STDSAUTO),6,7)),
+                            type=rep('auto_standards',nrow(STDSAUTO)),
+                            date=row.names(STDSAUTO))
+  
 
 # make CPI deflator 
 ## Inflation -- CPI
 CPIAUCSL = data.frame(getSymbols("CPIAUCSL", src="FRED",auto.assign=FALSE))
-deflator <- data.frame(deflator=CPIAUCSL$CPIAUCSL/CPIAUCSL$CPIAUCSL[nrow(CPIAUCSL)],
+deflator <- data.frame(value=CPIAUCSL$CPIAUCSL/CPIAUCSL$CPIAUCSL[nrow(CPIAUCSL)],
                        year=as.numeric(str_sub(row.names(CPIAUCSL),1,4)),
                        month=as.numeric(str_sub(row.names(CPIAUCSL),6,7)),
                        type=rep("deflator",nrow(CPIAUCSL)),
-                       row.names=row.names(CPIAUCSL))
+                       date=row.names(CPIAUCSL))
 
 fred <- rbind(normDelinq,mortDebtOut,autoStandards,deflator)
