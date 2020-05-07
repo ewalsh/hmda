@@ -90,9 +90,26 @@ FHAinsured <- data_lar3$loan_type == 2
 VAguaranteed <- data_lar3$loan_type == 3
 FSAguaranteed <- data_lar3$loan_type == 4
 
+# agency variables 
+HUD <- data_lar3$agency_code == 7
+CreditUnion <- data_lar3$agency_code == 5
+
+# owner occupied 
+isOwnerOccupied <- data_lar3$owner_occupancy == 1
+
+# preapproval requested
+prereq <- data_lar3$preapproval == 1
+
+# property type 
+isManufactured = data_lar3$property_type == 2
+isMulti = data_lar3$property_type == 3
+
 # build training data
 trainData <- data.frame(approved=sapply(data_lar3$action_taken,approvedTransform,successCodes,failCodes),
                         incomeCDF=incomeCDFfunc(data_lar3$applicant_income_000s),
                         soleApplicant=soleApplicant*1,blackApplicant=blackApplicant*1,asianApplicant=asianApplicant*1,
                         otherRaceApplicant=otherRaceApplicant*1,whiteFriend=whiteFriend*1,asOfYear=data_lar3$as_of_year,
-                        isFemale=isFemale, firstLien=firstLien*1, refinancing=refi*1, homeImprovement=homeImprove*1)
+                        isFemale=isFemale, firstLien=firstLien*1, refinancing=refi*1, homeImprovement=homeImprove*1,
+                        isHUD=HUD*1, isCreditUnion=CreditUnion*1, isOwnerOccupied=isOwnerOccupied*1,
+                        isManufactured=isManufactured, isMultiFam=isMulti)
+
