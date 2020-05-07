@@ -56,7 +56,7 @@ def load():
     )
     print("""Connection success.""")
     # Table creation and data insert
-    csv_prefix = state + yr
+    csv_prefix = state + str(yr)
     config = load_config()
     create_tables(config=config, connection=connection)
     load_tables(config=config, connection=connection, prefix=csv_prefix)

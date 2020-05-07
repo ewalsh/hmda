@@ -25,4 +25,4 @@ port = 54320
 dbname = 'hmda_db'
 user = 'postgres'
 state = 'OH'
-yr = '2016'
+yr = 2016

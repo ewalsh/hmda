@@ -17,13 +17,12 @@ def seed_one(state, yr):
     url_full = url_base + state + url_middle + str(yr) + url_end
     data_lar = pd.read_csv(url_full, dtype=object)
     # dropping rows numbers
-    data_lar = data_lar.iloc[:, 1:data_lar.shape[1]]
     ids = {}
-    for i in np.linspace(0, data_lar.shape[0]):
+    for i in np.arange(0, data_lar.shape[0]):
         ids[i] = uuid.uuid4()
 
-    data_lar['uuid'] = ids
-    f_str = '../data/load/' + state + yr + 'lar.csv'
+    data_lar['uuid'] = ids.values()
+    f_str = '../data/load/' + state + str(yr) + 'lar.csv'
     data_lar.to_csv(f_str, index=False)
     return(data_lar)
 
@@ -31,3 +30,6 @@ def seed_one(state, yr):
 def test():
     file = pd.read_csv('../data/load/OH2016lar.csv', dtype=object)
     return(file)
+
+
+# data_lar = data_lar.iloc[:, 1:data_lar.shape[1]]
