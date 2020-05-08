@@ -95,7 +95,7 @@
     city_code varchar(5),
     area_name varchar(80)
 
-- name: instituions
+- name: institutions
   size: large
   columns: ['activity_year', 'respondent_id', 'agency_code', 'agency_abbr', 'agency_name', 'federal_tax_id', 'respondent_name', 'respondent_address', 'respondent_city', 'respondent_state', 'respondent_zip_code', 'parent_name', 'parent_address', 'parent_city', 'parent_state', 'parent_zip_code', 'respondent_name_panel', 'respondent_city_panel', 'respondent_state_panel', 'other_lender_code', 'region_code', 'validity_error', 'assets', 'lar_count']
   schema: |
@@ -105,7 +105,7 @@
     agency_abbr varchar(4),
     agency_name varchar(60),
     federal_tax_id varchar(10),
-    respondent_name varchar(3),
+    respondent_name varchar(60),
     respondent_address varchar(60),
     respondent_city varchar(40),
     respondent_state varchar(2),
@@ -124,26 +124,28 @@
     assets double precision,
     lar_count integer
 
-  - name: census
-    size: medium
-    columns: ['state_code', 'state_abbr', 'county_code', 'county_name', 'year', 'emp', 'estab', 'payann', 'pop']
-      state_code integer,
-      state_abbr varchar(2),
-      county_code integer,
-      county_name varchar(60),
-      year integer,
-      emp integer,
-      estab integer,
-      payann double precision,
-      pop integer
-      PRIMARY KEY(state_code, county_code, year)
+- name: fred
+  size: small
+  columns: ['value', 'year', 'month', 'type', 'date']
+  schema: |
+    value double precision,
+    year integer,
+    month integer,
+    type varchar(16),
+    date varchar(10),
+    PRIMARY KEY(date, type)
 
-  - name: fred
-    size: small
-    columns: ['value', 'year', 'month', 'type', 'date']
-      value double precision,
-      year integer,
-      month integer,
-      type varchar(16),
-      date varchar(10),
-      PRIMARY KEY(date, type)
+- name: census
+  size: medium
+  columns: ['state_code', 'state_abbr', 'county_code', 'county_name', 'year', 'EMP', 'ESTAB', 'PAYANN', 'POP']
+  schema: |
+    state_code integer,
+    state_abbr varchar(2),
+    county_code integer,
+    county_name varchar(60),
+    year integer,
+    EMP integer,
+    ESTAB integer,
+    PAYANN double precision,
+    POP integer,
+    PRIMARY KEY(state_code, county_code, year)

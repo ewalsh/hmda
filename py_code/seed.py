@@ -70,7 +70,7 @@ def inst_pull(state, yr):
     url_end = '&limit=0&offset=0'
     url_full = url_base + state + url_middle + str(yr) + url_end
     data_inst = pd.read_csv(url_full, dtype=object)
-    data_inst.to_csv('../data/load/hmda_inst.csv')
+    data_inst.to_csv('../data/load/hmda_institutions.csv', index=False)
     return(data_inst)
 
 
