@@ -40,7 +40,7 @@ approvedTransform <- function(action_code, successCodes, failCodes){
 }
 
 # function to transform income to distribution function 
-incomeCDFfunc <- ecdf(data_lar3$applicant_income_000s) # should think about per county
+incomeLog <- log(data_lar3$applicant_income_000s,base=10) # should think about per county
 
 # functions for race transforms 
 cnames <- colnames(data_lar3)[c(6:7,9:18,24:35)]
@@ -104,12 +104,69 @@ prereq <- data_lar3$preapproval == 1
 isManufactured = data_lar3$property_type == 2
 isMulti = data_lar3$property_type == 3
 
+data.frame(sum=sapply(as.character(unique(data_lar3$purchaser_type_name)),
+         function(nm,data_lar3){
+           return(sum(as.character(data_lar3$purchaser_type_name) == nm))
+           },data_lar3
+         )
+)
+
+# a few purchaser types
+isFNMA = data_lar3$purchaser_type_name == 'Fannie Mae (FNMA)'
+isGNMA = data_lar3$purchaser_type_name == 'Fannie Mae (FNMA)'
+isFinComp = data_lar3$purchaser_type_name == 'Life insurance company, credit union, mortgage bank, or finance company'
+isFHLMC = data_lar3$purchaser_type_name == 'Freddie Mac (FHLMC)'
+isCommercial = data_lar3$purchaser_type_name == 'Commercial bank, savings bank or savings association'
+isPrivate = data_lar3$purchaser_type_name == 'Private securitization'
+isFAMC = data_lar3$purchaser_type_name == 'Farmer Mac (FAMC)'
+
+# look at income spread to hud median
+hudSpread = data_lar3$applicant_income_000s - data_lar3$hud_median_family_income/1000
+hudSpreadLog = log(hudSpread+min(hudSpread,na.rm=TRUE)*-1+0.00001, base=10)
+hudSpreadLogNormalized = (hudSpreadLog - mean(hudSpreadLog,na.rm=TRUE))/sd(hudSpreadLog,na.rm=TRUE)
+IDhudSpreadOutliers <- rep(FALSE, nrow(data_lar3))
+IDhudSpreadOutliers[grep(TRUE,abs(hudSpreadLogNormalized) > 5)] <- TRUE
+plot(density(hudSpreadLogNormalized[grep(FALSE, IDhudSpreadOutliers)],na.rm=TRUE))
+
+# load amount relative to income
+incomeLoanRatio <- data_lar3$loan_amount_000s/data_lar3$applicant_income_000s
+incomeLoanRatioLog <- log(incomeLoanRatio, base=10)
+
+# lower density housing
+lowDenseArea <- scale(data_lar3$number_of_1_to_4_family_units)
+# walk through logic of not making log shapiro wilk goes from .92 -> .99 but would mean 2x transforms...bad trade-off
+
+# self owned
+selfOwnedArea <- scale(data_lar3$number_of_owner_occupied_units)
+
+# minority pop
+minorityPop <- log(data_lar3$minority_population)
+
+# area total pop
+totalAreaPopLog <- log(data_lar3$population,base=10)
+# trade off here ... .9 -> .99 but interpretation is easier and don't want second linear transform
+
+# rate spread 
+rateSpreadLog <- log(data_lar3$rate_spread,base=10)
+
+# local to area income spread
+localIncomeToArea <- scale(data_lar3$tract_to_msamd_income) # discuss not log .94 -> .98 but interpretation down
+
 # build training data
 trainData <- data.frame(approved=sapply(data_lar3$action_taken,approvedTransform,successCodes,failCodes),
-                        incomeCDF=incomeCDFfunc(data_lar3$applicant_income_000s),
-                        soleApplicant=soleApplicant*1,blackApplicant=blackApplicant*1,asianApplicant=asianApplicant*1,
-                        otherRaceApplicant=otherRaceApplicant*1,whiteFriend=whiteFriend*1,asOfYear=data_lar3$as_of_year,
-                        isFemale=isFemale, firstLien=firstLien*1, refinancing=refi*1, homeImprovement=homeImprove*1,
-                        isHUD=HUD*1, isCreditUnion=CreditUnion*1, isOwnerOccupied=isOwnerOccupied*1,
-                        isManufactured=isManufactured, isMultiFam=isMulti)
+                        incomeLog=incomeLog,soleApplicant=soleApplicant*1,blackApplicant=blackApplicant*1,
+                        asianApplicant=asianApplicant*1, otherRaceApplicant=otherRaceApplicant*1,
+                        whiteFriend=whiteFriend*1, isFemale=isFemale, firstLien=firstLien*1, 
+                        refinancing=refi*1, homeImprovement=homeImprove*1, isHUD=HUD*1, isCreditUnion=CreditUnion*1, 
+                        isOwnerOccupied=isOwnerOccupied*1, isManufactured=isManufactured, isMultiFam=isMulti, 
+                        isFNMA=isFNMA*1, isGNMA=isGNMA*1, isFinComp=isFinComp*1, isFHLMC=isFHLMC*1, 
+                        isCommercial=isCommercial*1, isPrivate=isPrivate*1,
+                        isFAMC=isFAMC*1, hudSpreadLogNormalized=hudSpreadLogNormalized, 
+                        incomeLoanRatioLog=incomeLoanRatioLog, lowDenseArea=lowDenseArea, selfOwnedArea=selfOwnedArea,
+                        minorityPop=minorityPop,totalAreaPopLog=totalAreaPopLog, rateSpreadLog=rateSpreadLog)
+
+# additions for full mergable set 
+mergeSet <- data.frame(asOfYear=data_lar3$as_of_year,respondent_id=data_lar3$respondent_id,
+                       county_code=data_lar3$county_code, state_code=data_lar3$state_code,
+                       IDhudSpreadOutliers=IDhudSpreadOutliers)
 
