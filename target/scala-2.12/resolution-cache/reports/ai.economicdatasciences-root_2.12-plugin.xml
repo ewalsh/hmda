@@ -7,31 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, web-assets, web-assets-test, web-plugin, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20200506083445"/>
+		date="20200507204220"/>
 	<dependencies>
-		<module organisation="org.scalameta" name="semanticdb-scalac_2.12.8">
-			<revision name="4.1.9" status="release" pubdate="20190425224738" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalameta/scalameta" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
-				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/master/LICENSE.md"/>
-				<metadata-artifact status="no" details="" size="2740" time="0" location="/home/edmund/.ivy2/cache/org.scalameta/semanticdb-scalac_2.12.8/ivy-4.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.12.8/4.1.9/semanticdb-scalac_2.12.8-4.1.9.pom"/>
-				<caller organisation="ai.economicdatasciences" name="root_2.12" conf="plugin" rev="4.1.9" rev-constraint-default="4.1.9" rev-constraint-dynamic="4.1.9" callerrev="0.1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="semanticdb-scalac_2.12.8" type="jar" ext="jar" status="no" details="" size="12456526" time="0" location="/home/edmund/.ivy2/cache/org.scalameta/semanticdb-scalac_2.12.8/jars/semanticdb-scalac_2.12.8-4.1.9.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.12.8/4.1.9/semanticdb-scalac_2.12.8-4.1.9.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.12.8" status="release" pubdate="20181204101556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
-				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/edmund/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom"/>
-				<caller organisation="org.scalameta" name="semanticdb-scalac_2.12.8" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="4.1.9"/>
-				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="/home/edmund/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 	</dependencies>
 </ivy-report>

@@ -7,7 +7,7 @@ import java.util.Date
 import java.text.SimpleDateFormat
 import scala.concurrent.Future
 
-class HomeController @Inject() (components: ControllerComponents, assets: Assets) extends AbstractController(components) {
+class HomeController @Inject() (components: ControllerComponents, assets: Assets, ws: WSClient) extends AbstractController(components) {
     def index = Action.async {
         val date = new Date()
         val dateStr = new SimpleDateFormat().format(date)

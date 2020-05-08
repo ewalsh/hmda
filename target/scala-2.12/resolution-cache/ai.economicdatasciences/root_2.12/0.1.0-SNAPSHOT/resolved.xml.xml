@@ -4,7 +4,7 @@
 		module="root_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20200506083445"
+		publication="20200507204220"
 	>
 		<description>
 		root
@@ -56,6 +56,5 @@
 		<dependency org="com.typesafe.play" name="play-ahc-ws_2.12" rev="2.7.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.7.4" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.3.0-SNAP2" conf="test->default(compile)"/>
-		<dependency org="org.scalameta" name="semanticdb-scalac_2.12.8" rev="4.1.9" conf="plugin->default(compile)"/>
 	</dependencies>
 </ivy-module>

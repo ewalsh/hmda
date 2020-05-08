@@ -23,7 +23,8 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
+Seq[Any](format.raw/*1.19*/("""
+"""),format.raw/*2.1*/("""<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Home</title>
@@ -51,11 +52,11 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: 2020-05-06T08:34:45.273
-                  SOURCE: /home/edmund/Projects/hmda/app/views/index.scala.html
-                  HASH: d63ab30a24efc293e9c3e3e79f1206b92e0e1dc3
-                  MATRIX: 729->1|840->19|1008->161|1022->167|1082->207|1196->294|1224->301
-                  LINES: 21->1|26->2|31->7|31->7|31->7|35->11|35->11
+                  DATE: 2020-05-07T20:42:18.661
+                  SOURCE: C:/Users/DELL/Projects/hmda/app/views/index.scala.html
+                  HASH: 20ba3afad2c07cd261551f966c42e81fd66c22e9
+                  MATRIX: 729->1|841->18|869->20|1042->167|1056->173|1116->213|1234->304|1262->311
+                  LINES: 21->1|26->1|27->2|32->7|32->7|32->7|36->11|36->11
                   -- GENERATED --
               */
           
