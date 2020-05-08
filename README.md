@@ -14,3 +14,18 @@ Once installed, run the folling commands in your terminal:
 `docker exec -it pg_server psql -U postgres -c "create database hmda_db"`
 4. Modify the paths in the config.py script and run it to load the csv training data into the DB. Then populate the database:
 `python load.py`
+
+I will be using a toy spark cluster for the smaller scale analysis. This will allow for easy scale-up later on.
+1. Pull docker image:
+`docker pull ewalsh200/toyspark:latest`
+2. Build the image:
+`docker build --tag ewalsh/toyspark:latest .`
+3. Then connect to the spark docker instance:
+`docker run -it --name espark -p 8080:8080 ewalsh200/toyspark:latest bash`
+4. From the docker instance command line run the following:
+4a. Start master.
+`./sbin/start-master.sh`
+4b. Find ip address.
+`ip=$(hostname -i)``
+4c. Start slave.
+`./sbin/start-slave.sh $ip:7077`
