@@ -13,4 +13,4 @@ Once installed, run the folling commands in your terminal:
 3. Create the databse:
 `docker exec -it pg_server psql -U postgres -c "create database hmda_db"`
 4. Modify the paths in the config.py script and run it to load the csv training data into the DB. Then populate the database:
-`python etl.py`
+`python load.py`
