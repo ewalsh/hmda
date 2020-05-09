@@ -3695,3 +3695,15 @@ ERROR Unexpected error when compiling root: 'Unexpected internal error near inde
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
 ERROR Failed to compile 'root','root-test'
+INFO  time: initialize in 0.51s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp8302115684066073977/18zf4q0kgt9al.socket'
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp8302115684066073977/18zf4q0kgt9al.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp8302115684066073977/18zf4q0kgt9al.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.81s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.48s
