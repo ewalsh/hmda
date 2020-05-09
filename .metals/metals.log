@@ -3725,3 +3725,8 @@ INFO  time: imported build in 0.64s
 INFO  time: indexed workspace in 2.3s
 WARN  no build target: /home/edmund/Projects/hmda/build.sbt
   /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  time: initialize in 0.89s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: C:\Users\DELL\Projects\hmda\app\controllers\HomeController.scala
+WARN  no build target: C:\Users\DELL\Projects\hmda\project\plugins.sbt
+WARN  no build target: C:\Users\DELL\Projects\hmda\build.sbt
