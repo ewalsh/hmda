@@ -3600,3 +3600,37 @@ java.util.regex.PatternSyntaxException: Unexpected internal error near index 1
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
 ERROR Failed to compile 'root','root-test'
+INFO  time: initialize in 0.57s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp6737180512492185313/-bieny2r8idz5.socket'
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp6737180512492185313/-bieny2r8idz5.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp6737180512492185313/-bieny2r8idz5.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.71s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.73s
+INFO  time: indexed workspace in 7.46s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
+shutdown request received: build/shutdown
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  time: initialize in 0.7s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp739299436894283520/-1vd828vyi1hdq.socket'
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp739299436894283520/-1vd828vyi1hdq.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp739299436894283520/-1vd828vyi1hdq.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.71s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.63s
+INFO  time: indexed workspace in 2.28s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
