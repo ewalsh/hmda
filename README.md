@@ -3,7 +3,19 @@ project utilizing the home mortgage discolure act data
 
 ## Preparation
 I will utilize a PostgreSQL 11 server for storing and retrieving
-data and Docker for hosting it. Please make sure docker is installed.
+data. I will also use a Spark cluster to compute. I will be using for hosting each. Please make sure docker is installed.
+
+Please make sure docker compose is install
+1. First navigate to the docker subdirectory
+`cd docker`
+2. Pull the spark docker image
+`docker pull ewalsh200/toyspark`
+3. Bring up docker compose
+`docker-compose up`
+4. In a separate terminal start spark
+`docker exec -it docker_spark_1 bash`
+5. From there start a single spark worker
+`./sbin/start-slave.sh 172.19.0.3:7077`
 
 Once installed, run the folling commands in your terminal:
 1. To run the server:

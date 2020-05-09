@@ -145,7 +145,7 @@
     POP integer,
     county_code integer,
     county_name varchar(60),
-    state_code integer,
     state_abbr varchar(2),
+    state_code integer,
     year integer,
     PRIMARY KEY(state_code, county_code, year)
