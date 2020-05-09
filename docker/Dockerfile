@@ -22,3 +22,5 @@ USER hduser
 EXPOSE 8080 8081 7077
 
 WORKDIR /opt/spark-2.2.1-bin-hadoop2.7
+
+CMD ./bin/spark-class org.apache.spark.deploy.master.Master
