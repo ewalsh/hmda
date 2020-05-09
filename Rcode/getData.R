@@ -83,17 +83,18 @@ for(i in 1:length(cIds)){
                     PAYANN = censusSums['PAYANN'], POP=as.numeric(popData[[2]][1]))
   censusResults <- rbind(censusResults,tmp)
 }
+censusResults <- censusResults[-1, ]
 
 
 
 ## INSTITUTIONS
 urlBase <- "https://api.consumerfinance.gov/data/hmda/slice/institutions.csv?$where=respondent_state+%3D+'"
 urlMiddle <- "'+AND+activity_year+%3D+"
-urlSuffix <- "&$limit=0&$offset=0"
+urlSuffix <- "'&$limit=0&$offset=0"
 # start with Ohio only
 IdOhio <- 36
 url <- paste(urlBase,as.character(StateAbbrData$Abbreviation[IdOhio]),
-             urlMiddle,yrs[10],urlSuffix,sep='')
+             urlSuffix,sep='') # urlMiddle,yrs[10],
 # download
 tmpFile <- paste('./data/',as.character(StateAbbrData$Abbreviation[IdOhio]),
                  yrs[10],'insts.csv',sep="")

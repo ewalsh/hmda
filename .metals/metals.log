@@ -3408,3 +3408,8 @@ ERROR Unexpected error when compiling root: 'Unexpected internal error near inde
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
 ERROR Failed to compile 'root'
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in C:\Users\DELL\Projects\hmda\.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
