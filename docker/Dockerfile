@@ -21,4 +21,4 @@ USER hduser
 
 EXPOSE 8080 8081 7077
 
-CMD /opt/spark-2.2.1-bin-hadoop2.7/sbin/start-master.sh
+WORKDIR /opt/spark-2.2.1-bin-hadoop2.7
