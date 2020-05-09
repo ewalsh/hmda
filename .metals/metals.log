@@ -3600,37 +3600,98 @@ java.util.regex.PatternSyntaxException: Unexpected internal error near index 1
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
 ERROR Failed to compile 'root','root-test'
-INFO  time: initialize in 0.57s
-INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp6737180512492185313/-bieny2r8idz5.socket'
-INFO  skipping build import with status 'Dismissed'
-WARN  no build target: /home/edmund/Projects/hmda/build.sbt
-WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
-The server is listening for incoming connections at local:///tmp/bsp6737180512492185313/-bieny2r8idz5.socket...
-Accepted incoming BSP client connection at local:///tmp/bsp6737180512492185313/-bieny2r8idz5.socket
-INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
-request received: build/initialize
-INFO  time: connected to build server in 3.71s
-BSP initialization handshake complete.
-INFO  time: imported build in 0.73s
-INFO  time: indexed workspace in 7.46s
-WARN  no build target: /home/edmund/Projects/hmda/build.sbt
-  /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  shutting down Metals
 shutdown request received: build/shutdown
-Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+Client in C:\Users\DELL\Projects\hmda\.bloop triggered cancellation. Cancelling tasks...
 [0m[31m[E][0m BSP server cancelled, closing socket...
-INFO  bloop exit: 0
-INFO  time: initialize in 0.7s
-INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp739299436894283520/-1vd828vyi1hdq.socket'
-INFO  skipping build import with status 'Dismissed'
-WARN  no build target: /home/edmund/Projects/hmda/build.sbt
-WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
-The server is listening for incoming connections at local:///tmp/bsp739299436894283520/-1vd828vyi1hdq.socket...
-Accepted incoming BSP client connection at local:///tmp/bsp739299436894283520/-1vd828vyi1hdq.socket
-INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+INFO  time: initialize in 0.81s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: C:\Users\DELL\Projects\hmda\app\controllers\HomeController.scala
+WARN  no build target: C:\Users\DELL\Projects\hmda\project\plugins.sbt
+WARN  no build target: C:\Users\DELL\Projects\hmda\build.sbt
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 55779'
+The server is listening for incoming connections at tcp://127.0.0.1:55779...
+Accepted incoming BSP client connection at tcp://127.0.0.1:55779
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
 request received: build/initialize
-INFO  time: connected to build server in 3.71s
+INFO  time: connected to build server in 8.01s
 BSP initialization handshake complete.
-INFO  time: imported build in 0.63s
-INFO  time: indexed workspace in 2.28s
-WARN  no build target: /home/edmund/Projects/hmda/build.sbt
-  /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  time: imported build in 0.93s
+INFO  time: indexed workspace in 2.43s
+INFO  compiling root (6 scala sources and 1 java source)
+java.util.regex.PatternSyntaxException: Unexpected internal error near index 1
+\
+	at java.util.regex.Pattern.error(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at java.util.regex.Pattern.<init>(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at java.lang.String.split(Unknown Source)
+	at java.lang.String.split(Unknown Source)
+	at bloop.CompilerCache$BloopForkedJavaCompiler.$anonfun$run$3(CompilerCache.scala:166)
+	at scala.Option.foreach(Option.scala:274)
+	at bloop.CompilerCache$BloopForkedJavaCompiler.$anonfun$run$2(CompilerCache.scala:165)
+	at bloop.CompilerCache$BloopForkedJavaCompiler.$anonfun$run$2$adapted(CompilerCache.scala:159)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at bloop.CompilerCache$BloopForkedJavaCompiler.run(CompilerCache.scala:159)
+	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$11(AnalyzingJavaCompiler.scala:156)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:234)
+	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:146)
+	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:73)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:70)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:31)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:69)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:152)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)INFO  time: compiled root in 10s
+
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.util.regex.PatternSyntaxException: Unexpected internal error near index 1
+\
+	at java.util.regex.Pattern.error(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at java.util.regex.Pattern.<init>(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at java.lang.String.split(Unknown Source)
+	at java.lang.String.split(Unknown Source)
+ERROR Unexpected error when compiling root: 'Unexpected internal error near index 1
+\'
+	at bloop.CompilerCache$BloopForkedJavaCompiler.$anonfun$run$3(CompilerCache.scala:166)
+	at scala.Option.foreach(Option.scala:274)
+	at bloop.CompilerCache$BloopForkedJavaCompiler.$anonfun$run$2(CompilerCache.scala:165)
+	at bloop.CompilerCache$BloopForkedJavaCompiler.$anonfun$run$2$adapted(CompilerCache.scala:159)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at bloop.CompilerCache$BloopForkedJavaCompiler.run(CompilerCache.scala:159)
+	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$11(AnalyzingJavaCompiler.scala:156)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:234)
+	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:146)
+	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:73)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:70)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:31)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:69)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:152)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+ERROR Failed to compile 'root','root-test'
