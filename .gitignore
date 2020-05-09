@@ -3,7 +3,9 @@
 .RData
 .Ruserdata
 hmda.Rproj
-data/load/*
+data/load/hmda_institutions.csv
+data/load/hmda_lar.csv
+data/load/hmda_census.csv
 project/.bloop/
 project/project/
 project/target/
