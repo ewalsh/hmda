@@ -3707,3 +3707,6 @@ request received: build/initialize
 INFO  time: connected to build server in 3.81s
 BSP initialization handshake complete.
 INFO  time: imported build in 0.48s
+INFO  time: indexed workspace in 7s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
