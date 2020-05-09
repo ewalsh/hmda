@@ -137,15 +137,15 @@
 
 - name: census
   size: medium
-  columns: ['state_code', 'state_abbr', 'county_code', 'county_name', 'year', 'EMP', 'ESTAB', 'PAYANN', 'POP']
+  columns: ['EMP', 'ESTAB', 'PAYANN', 'POP', 'county_code', 'county_name', 'state_code', 'state_abbr', 'year']
   schema: |
-    state_code integer,
-    state_abbr varchar(2),
-    county_code integer,
-    county_name varchar(60),
-    year integer,
     EMP integer,
     ESTAB integer,
     PAYANN double precision,
     POP integer,
+    county_code integer,
+    county_name varchar(60),
+    state_code integer,
+    state_abbr varchar(2),
+    year integer,
     PRIMARY KEY(state_code, county_code, year)
