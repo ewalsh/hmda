@@ -4,7 +4,9 @@
 .Ruserdata
 hmda.Rproj
 data/
-.bloop
 project/.bloop/
 project/project/
 project/target/
+.metals/
+.bloop/
+project/metals.sbt
