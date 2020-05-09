@@ -3,7 +3,7 @@
 .RData
 .Ruserdata
 hmda.Rproj
-data/load/
+data/load/*
 project/.bloop/
 project/project/
 project/target/
