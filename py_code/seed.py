@@ -66,7 +66,7 @@ def census_pull(state, yr, data_lar, api_key):
 def inst_pull(state, yr):
     """Pull mortgage instituions data"""
     url_base = "https://api.consumerfinance.gov/data/hmda/slice/institutions.csv?where=respondent_state+%3D+'"
-    url_end = ''&limit=0&offset=0'
+    url_end = "'&limit=0&offset=0"
     url_full = url_base + state + url_end
     data_inst = pd.read_csv(url_full, dtype=object)
     data_inst.to_csv('../data/load/hmda_institutions.csv', index=False)
