@@ -3736,3 +3736,8 @@ WARN  no build target: C:\Users\DELL\Projects\hmda\app\controllers\HomeControlle
 WARN  no build target: C:\Users\DELL\Projects\hmda\project\plugins.sbt
 WARN  no build target: C:\Users\DELL\Projects\hmda\build.sbt
 INFO  shutting down Metals
+INFO  time: initialize in 1.06s
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: C:\Users\DELL\Projects\hmda\app\controllers\HomeController.scala
+WARN  no build target: C:\Users\DELL\Projects\hmda\project\plugins.sbt
+WARN  no build target: C:\Users\DELL\Projects\hmda\build.sbt
