@@ -48,7 +48,7 @@ def cat_to_bin(data_series, cat):
 
 
 def other_race(data_series):
-    otherRaceApplicant = np.ones(data.shape[0])
+    otherRaceApplicant = np.ones(data_series.shape[0])
     ids = (data_series == 'White')
     otherRaceApplicant[ids] = 0
     ids = (data_series == 'Black or African American')
