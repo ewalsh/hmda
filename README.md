@@ -13,3 +13,8 @@ Once installed, run the folling commands in your terminal:
 `docker logs -f pg_server`
 3. Create the databse:
 `docker exec -it pg_server psql -U postgres -c "create database hmda_db"`
+4. Load the notebook:
+4a. Go to they python code directory:
+`cd ./py_code`
+4b. Lauch the notebook
+`jupyter notebook`
