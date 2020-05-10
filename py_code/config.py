@@ -20,7 +20,7 @@ data_path = Path(
     'load'
 )
 
-host = '0.0.0.0'
+host = 'localhost'
 port = 54320
 dbname = 'hmda_db'
 user = 'postgres'

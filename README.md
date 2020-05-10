@@ -32,7 +32,7 @@ Once installed, run the folling commands in your terminal:
 
 I will be using a toy spark cluster for the smaller scale analysis. This will allow for easy scale-up later on.
 1. Pull docker image:
-`docker pull ewalsh200/toyspark:latest`
+`docker pull ewalsh200/toyspark:latest` 
 2. Build the image:
 `docker build --tag ewalsh/toyspark:latest .`
 3. Then connect to the spark docker instance:
