@@ -3730,3 +3730,8 @@ INFO  skipping build import with status 'Installed'
 WARN  no build target: C:\Users\DELL\Projects\hmda\app\controllers\HomeController.scala
 WARN  no build target: C:\Users\DELL\Projects\hmda\project\plugins.sbt
 WARN  no build target: C:\Users\DELL\Projects\hmda\build.sbt
+INFO  time: initialize in 1.29s
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: C:\Users\DELL\Projects\hmda\app\controllers\HomeController.scala
+WARN  no build target: C:\Users\DELL\Projects\hmda\project\plugins.sbt
+WARN  no build target: C:\Users\DELL\Projects\hmda\build.sbt

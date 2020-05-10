@@ -8,3 +8,4 @@ pathlib2==2.3.5
 wheel==0.34.2
 matplotlib==3.2.1
 seaborn==0.10.1
+sklearn==0.0
