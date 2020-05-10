@@ -12,12 +12,13 @@ Please make sure docker compose is install
 `docker pull ewalsh200/toyspark`
 3. Bring up docker compose
 `docker-compose up`
+6. Create the database
+`docker exec -it docker_db_1 psql -U postgres -c "create database hmda_db"`
 4. In a separate terminal start spark
 `docker exec -it docker_spark_1 bash`
 5. From there start a single spark worker
 `./sbin/start-slave.sh 172.19.0.3:7077`
-6. Create the database
-`docker exec -it docker_db_1 psql -U postgres -c "create database hmda_db"`
+
 
 Once installed, run the folling commands in your terminal:
 1. To run the server:
