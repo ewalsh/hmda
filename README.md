@@ -16,5 +16,5 @@ Once installed, run the folling commands in your terminal:
 4. Load the notebook:
 4a. Go to they python code directory:
 `cd ./py_code`
-4b. Lauch the notebook
+4b. Launch the notebook
 `jupyter notebook`
