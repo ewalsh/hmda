@@ -3735,9 +3735,18 @@ INFO  skipping build import with status 'Dismissed'
 WARN  no build target: C:\Users\DELL\Projects\hmda\app\controllers\HomeController.scala
 WARN  no build target: C:\Users\DELL\Projects\hmda\project\plugins.sbt
 WARN  no build target: C:\Users\DELL\Projects\hmda\build.sbt
-INFO  shutting down Metals
-INFO  time: initialize in 1.06s
+INFO  time: initialize in 0.59s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp2139995155802949303/bt8tcxjt6ukz.socket'
 INFO  skipping build import with status 'Dismissed'
-WARN  no build target: C:\Users\DELL\Projects\hmda\app\controllers\HomeController.scala
-WARN  no build target: C:\Users\DELL\Projects\hmda\project\plugins.sbt
-WARN  no build target: C:\Users\DELL\Projects\hmda\build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp2139995155802949303/bt8tcxjt6ukz.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp2139995155802949303/bt8tcxjt6ukz.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 5.24s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.65s
+INFO  time: indexed workspace in 4.03s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
