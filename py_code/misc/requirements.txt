@@ -9,3 +9,4 @@ wheel==0.34.2
 matplotlib==3.2.1
 seaborn==0.10.1
 sklearn==0.0
+pyspark==2.4.5
