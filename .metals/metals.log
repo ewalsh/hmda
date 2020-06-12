@@ -3750,3 +3750,77 @@ INFO  time: imported build in 0.65s
 INFO  time: indexed workspace in 4.03s
 WARN  no build target: /home/edmund/Projects/hmda/build.sbt
   /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  time: initialize in 0.56s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp1012773694621066591/81un8wofx3nr.socket'
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp1012773694621066591/81un8wofx3nr.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp1012773694621066591/81un8wofx3nr.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.74s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.79s
+INFO  time: indexed workspace in 2.07s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  time: initialize in 0.52s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp633025927288051787/fupi02pogain.socket'
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp633025927288051787/fupi02pogain.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp633025927288051787/fupi02pogain.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 5.01s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.8s
+INFO  time: indexed workspace in 3.76s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  time: initialize in 0.54s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp6079164957628928644/-1orpfurbhidyi.socket'
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp6079164957628928644/-1orpfurbhidyi.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp6079164957628928644/-1orpfurbhidyi.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 5.39s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.94s
+INFO  time: indexed workspace in 4.87s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /home/edmund/Projects/hmda/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  time: initialize in 0.49s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp7817262035881012158/ho9q313is1ht.socket'
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+WARN  no build target: /home/edmund/Projects/hmda/project/plugins.sbt
+The server is listening for incoming connections at local:///tmp/bsp7817262035881012158/ho9q313is1ht.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp7817262035881012158/ho9q313is1ht.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/edmund/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 4.21s
+BSP initialization handshake complete.
+INFO  time: imported build in 1.08s
+INFO  time: indexed workspace in 5.64s
+WARN  no build target: /home/edmund/Projects/hmda/build.sbt
+  /home/edmund/Projects/hmda/project/plugins.sbt
