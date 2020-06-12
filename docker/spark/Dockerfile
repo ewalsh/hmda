@@ -16,7 +16,7 @@ RUN tar -xzf jdk-8u231-linux-x64.tar.gz
 ENV SPARK_HOME=/opt/spark-2.2.1-bin-hadoop2.7
 ENV PATH=$PATH:$SPARK_HOME/bin
 ENV JAVA_HOME=/opt/jdk1.8.0_231
-ENV PATH=$PATH:/JAVA_HOME/bin
+ENV PATH=$PATH:$JAVA_HOME/bin
 
 RUN addgroup hadoop
 RUN useradd -ms /bin/bash hduser
