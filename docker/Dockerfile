@@ -6,6 +6,7 @@ WORKDIR /opt
 RUN apt-get clean
 RUN apt-get update -y --fix-missing
 RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
+RUN apt-get update
 RUN apt-get install -y apt-utils iputils-ping nano zip python3 curl wget r-base
 
 RUN wget https://archive.apache.org/dist/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
