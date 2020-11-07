@@ -52,7 +52,8 @@ def load():
         host=host,
         port=port,
         dbname=dbname,
-        user=user
+        user=user,
+        password="pword"
     )
     print("""Connection success.""")
     # Table creation and data insert
