@@ -1,6 +1,9 @@
 # HMDA
 project utilizing the home mortgage discolure act data
 
+## Results and Output
+The results can be found in a jupyter notebook within the py_code folder or within the pdf
+
 ## Preparation
 I will utilize a PostgreSQL 11 server for storing and retrieving
 data. Please make sure docker is installed.
