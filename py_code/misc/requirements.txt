@@ -1,7 +1,7 @@
 psycopg2_binary==2.7.5
 pandas==0.24.1
 psycopg2==2.8.2
-PyYAML==5.1
+PyYAML==5.4
 numpy==1.17.2
 pendulum==2.0.5
 pathlib2==2.3.5
